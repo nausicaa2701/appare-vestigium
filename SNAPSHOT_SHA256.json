@@ -10,8 +10,8 @@
       "bytes": 1078
     },
     "README.md": {
-      "sha256": "159cc9b70f81f79b0f666b34a8ddf4f0612bb43fc557a551ace07bc92fc39826",
-      "bytes": 16911
+      "sha256": "3da6ebe9f1d7682e22a241581a07245bc3da6030b1a4c7196bf8d0b4fafef659",
+      "bytes": 16999
     },
     "SNAPSHOT_SHA256 4.json": {
       "sha256": "65b1fe7a8e2478e257908a0cd48c6d40ee4268486dc74cd11f5495e449455cf8",
@@ -512,6 +512,10 @@
     "artifacts/tests/test_selectors.py": {
       "sha256": "41566696ec6b71df138b01fa3e77b93b3259c6c6e0e1d2396e36bf410fd34496",
       "bytes": 13391
+    },
+    "assets/appare-vestigium-logo.png": {
+      "sha256": "cc7a6436f28e2fc8ee830c83696a056bd573f80f713f57b23d031ab9ef18c627",
+      "bytes": 144029
     },
     "pyproject.toml": {
       "sha256": "d8fe9af0c0f161dbb08fa0d70a5317146062730a2c7ea06856dc43c541fa3bf3",

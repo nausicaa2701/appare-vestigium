@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/appare-vestigium-logo.png" alt="Appare Vestigium logo" width="300" />
+
 # Appare Vestigium
 
 **Budgeted, traceable repository-context selection for vulnerability detection.**
