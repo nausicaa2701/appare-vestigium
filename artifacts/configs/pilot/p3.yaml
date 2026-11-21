@@ -1,0 +1,40 @@
+
+
+extends: p2.yaml
+name: raven-pilot-p3
+
+p3:
+
+  test_helper_packages: [sleep, supertest, "@babel/highlight"]
+  code:
+
+    min_tokens: 50
+    shingle_k: 5
+    minhash_permutations: 128
+    lsh_bands: 32
+    near_duplicate_jaccard: 0.8
+
+
+    generic_project_limit: 5
+    max_file_kib: 512
+
+
+
+
+
+    vendor_path_regex: '(^|/)(node_modules|vendors?|third[-_]?party|bower_components)(/|$)'
+    build_output_regex: '(^|/)(dist|build|umd|bundles?|out|browser[-\w]*)(/|$)|\.min\.js$|[-.]bundle\.js$'
+    shared_package_limit: 2
+
+
+
+  jsvul_split_fractions: {train: 0.8, val: 0.1, test: 0.1}
+
+
+  bundled_target_audit: artifacts/data/bundled_target_audit.csv
+
+  near_duplicate_review: 20
+  php:
+    held_out_fraction: 0.2
+    val_fraction: 0.1
+    pilot_distractors_per_split: 200

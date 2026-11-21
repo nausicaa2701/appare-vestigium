@@ -1,0 +1,8 @@
+extends: p7-evidence-first.yaml
+name: raven-p7-epoch6-qualification
+output_dir: artifacts/results/diagnostics/p7-epoch6-qualification-20261119/runs
+p7:
+  detector:
+    training_enabled: true
+    train:
+      epochs: 6

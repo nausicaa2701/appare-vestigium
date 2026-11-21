@@ -1,0 +1,103 @@
+{
+  "checkpoint_dir": "/Users/nausicaa/Documents/GitHub/internship_2/artifacts/cache/p7-evidence-checkpoints/20261117T135955Z-raven-pilot-p7-evidence-detector-detector-train-b64099ee",
+  "fit_positives": 44,
+  "fit_records": 128,
+  "fold": "0",
+  "gradients_finite": true,
+  "input_bundle": {
+    "path": "artifacts/results/pilot/P7/evidence-first-runs/20261116T175820Z-raven-pilot-p7-evidence-first-evidence-first-inputs-b74968ee",
+    "sha256": "5fe5ef54ea4e1965550309981d622200d40e7940568ef4ca6b75f6ca5b08f926"
+  },
+  "losses_finite": true,
+  "manifest_run": "operation_manifest_reviewed.jsonl@2f59db7537af/inputs@5fe5ef54ea4e",
+  "max_steps": null,
+  "output_files": {
+    "cohort_guard.json": "f802bffaae3a637f4fc2c1c2a1b0b5518cdf4fe0ef66d64e1fab1f4695769c7f",
+    "predictions.csv": "2e17daed362cff2c7e6cd518dcb7792045aeb9b1e4edee2480a48d5a1c49e176",
+    "train_log.jsonl": "4be5090251f6ea689fa70da093b65ba3d51d6a0bb42b9c2958d818711cd78583"
+  },
+  "pack_run": "20261107T132948Z-raven-pilot-p6-pack-cells-e09f7885",
+  "planned_steps": 126,
+  "roles": {
+    "assessment": 77,
+    "calibration": 27,
+    "fit": 128
+  },
+  "roundtrip_max_abs_diff": 0.0,
+  "roundtrip_ok": true,
+  "sampling": "balanced",
+  "status": "completed",
+  "steps": 126,
+  "thresholds": {
+    "bow": {
+      "candidates": 25,
+      "confusion": [
+        2,
+        1,
+        17,
+        7
+      ],
+      "fpr": 0.05555555555555555,
+      "mcc": 0.25,
+      "threshold": 0.9950000793275326
+    },
+    "reference": {
+      "candidates": 29,
+      "confusion": [
+        1,
+        0,
+        18,
+        8
+      ],
+      "fpr": 0.0,
+      "mcc": 0.2773500981126146,
+      "selected_on": "reference",
+      "threshold": 0.5578999519348145
+    },
+    "target_only": {
+      "candidates": 29,
+      "confusion": [
+        1,
+        0,
+        18,
+        8
+      ],
+      "fpr": 0.0,
+      "mcc": 0.2773500981126146,
+      "selected_on": "reference",
+      "threshold": 0.5578999519348145
+    }
+  },
+  "tokenizer_revision": "df3ce67c0e24480f20468b6ef2894622d69eb73b",
+  "train_config": {
+    "class_weight": "none_balanced_sampling",
+    "context_dropout": {
+      "keep_prob": 0.5
+    },
+    "effective_batch": 4,
+    "epochs": 3,
+    "grad_clip": 1.0,
+    "head": "last_token_linear",
+    "lora": {
+      "alpha": 32,
+      "dropout": 0.0,
+      "r": 16,
+      "targets": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj"
+      ]
+    },
+    "lr": 0.0001,
+    "no_dropout_input": "p6_random_pack",
+    "sampling": "balanced",
+    "seed": 0,
+    "weight_decay": 0.0
+  },
+  "train_s": 1259.2,
+  "trainable_file_sha256": "07d733f9239e920128e442a226b52fe00f7c2552af4550a024a0ee865bd61fc1",
+  "trainable_sha256": "cff41523f30879a830d65ea5aad782cf09aaad8a4dda76cfe289df70a884a637",
+  "variant": "context_dropout",
+  "w_pos": 1.0
+}

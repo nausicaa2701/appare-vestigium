@@ -1,0 +1,132 @@
+{
+  "protocol": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "scenarios": [
+      "linked_complements_with_duplicate_rivals",
+      "missing_dependency",
+      "false_protection_of_duplicate_rivals",
+      "singleton_rivals",
+      "weak_companion",
+      "observational_twin",
+      "dependency_hub",
+      "all_similar_unlinked",
+      "dominant_duplicate_rivals"
+    ],
+    "methods": [
+      "relevance",
+      "dependency_expansion",
+      "mmr",
+      "gated_mmr",
+      "dn",
+      "gated_dn",
+      "dependency_mean",
+      "gated_dn_with_support",
+      "gated_subtraction"
+    ],
+    "unit_budgets": [
+      1,
+      2,
+      3,
+      16
+    ],
+    "pool_size": 16,
+    "similarity_neighbors": 8,
+    "sigma": 1.0,
+    "beta": 1.0,
+    "gamma": 2.0,
+    "support_alpha": 0.5,
+    "mmr_lambda": 0.5,
+    "drive_noise_sd": 0.015,
+    "embedding_noise_sd": 0.005,
+    "source_order": "per-scene random permutation, shared by observable counterfactuals",
+    "truth_access": "required IDs are used for evaluation only",
+    "scope": "Synthetic mechanism diagnostics; no vulnerability detector or real dataset.",
+    "extension_note": "dominant_duplicate_rivals was added after inspection of the v3 aggregate table to test global suppression when raw relevance seeds favor repeated distractors. It is an exploratory counterexample, not an independent preregistered result."
+  },
+  "invariants": {
+    "score_permutation_equivariance": true,
+    "uniform_pool_rank_degeneracy": true,
+    "fixed_kernel_jacobian": [
+      [
+        0.7352941176470588,
+        0.0,
+        -0.2162629757785467
+      ],
+      [
+        0.0,
+        0.8474576271186441,
+        -0.08618213157138754
+      ],
+      [
+        -0.15581717451523547,
+        -0.07790858725761773,
+        0.6578947368421053
+      ]
+    ],
+    "finite_nonzero_gradients": true,
+    "observational_twin_inputs_identical": true,
+    "graph_counterfactual_inputs_matched": true,
+    "gate_monotonicity_fixed_kernel": true,
+    "zero_support_matches_primary": true
+  },
+  "unit_cost_cells": 10368,
+  "packing_bridge": {
+    "cells": 108,
+    "all_within_budget": true,
+    "mandatory_target_retained": true,
+    "tokenizer_revision": "df3ce67c0e24480f20468b6ef2894622d69eb73b",
+    "note": "Synthetic code text; static policies only; Qwen tokens and the existing P6 packer."
+  },
+  "wall_seconds": 3.902978500002064,
+  "environment": {
+    "python": "3.12.6",
+    "numpy": "2.5.2",
+    "torch": "2.9.0",
+    "git_head": "69e0e82393a7d69dbc06a723b2c5ab041986fecc"
+  },
+  "source_sha256": "f645d4a2403496b7b9576a91532fa0f3f0725b154bba445da9d8c2b15732717b",
+  "packer_source_sha256": "b5c2069b44d345f1ae3fd3ad0d5cc79fa55fee56488b70d0b2e8e72702f56e56",
+  "output_files": {
+    "unit_cost_results.csv": "2f2678d16e96ede3b926e70ad31f7011761c0fe45a626c3fb11eca2025d5a3e9",
+    "inputs.jsonl.gz": "747f4c1d0d87d5d1147fafa63dcf2a7f3bc5c97ac4cd920247eced8dc4e69aea",
+    "packing_bridge.csv": "f50beb8e7f51da7f87ccb11f03e35439f5ac4103090b44f6db869b27530e0dee",
+    "packer_source.py": "b5c2069b44d345f1ae3fd3ad0d5cc79fa55fee56488b70d0b2e8e72702f56e56",
+    "probe_source.py": "f645d4a2403496b7b9576a91532fa0f3f0725b154bba445da9d8c2b15732717b",
+    "protocol.json": "6e342bfaeebbdff7bec4c6771efbd00e2a262dfaedf76590b1e12fed19fa1c39",
+    "sensitivity.csv": "e762b78de305fb48350e3e078c1a18fd1c08040c11b68c6e452e18d86e5a2452",
+    "unit_cost_summary.csv": "4573be9263d8310e53825c9e9b2848e20aef8f50af4ed4463b8468588248ba34"
+  }
+}

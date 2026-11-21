@@ -1,0 +1,1503 @@
+{
+  "cases": [
+    {
+      "all_clipped_occurrences": 2,
+      "all_text_occurrences": 10,
+      "candidate_clipped": 1,
+      "candidate_texts": 9,
+      "family": "gddb1951ebbe81ffb",
+      "sample_id": "jsvul:antfu/utils::110687261d08608f22148bf5485e8fa58b90ceb9::src/object.ts::78::7",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 2,
+      "all_text_occurrences": 10,
+      "candidate_clipped": 1,
+      "candidate_texts": 9,
+      "family": "gddb1951ebbe81ffb",
+      "sample_id": "jsvul:antfu/utils::7f8b16c6181c988bdb96613fbb2533b345f68682::src/object.ts::78::7",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 11,
+      "candidate_clipped": 1,
+      "candidate_texts": 10,
+      "family": "gb7bc0ada8f562283",
+      "sample_id": "jsvul:apollosproject/apollos-apps::a2b62f6b098fe9403f86f3003b8638a6008f2ff7::packages/apollos-data-connector-rock/src/people/data-source.js::62::11",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 11,
+      "candidate_clipped": 1,
+      "candidate_texts": 10,
+      "family": "gb7bc0ada8f562283",
+      "sample_id": "jsvul:apollosproject/apollos-apps::cb5f8f1c0b24f1b215b2bb5eb6f9a8e16d728ce2::packages/apollos-data-connector-rock/src/people/data-source.js::62::11",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 15,
+      "candidate_clipped": 1,
+      "candidate_texts": 14,
+      "family": "g271fcfd5132cab80",
+      "sample_id": "jsvul:avo-hq/avo::51bb80b181cd8e31744bdc4e7f9b501c81172347::app/javascript/js/controllers/fields/key_value_controller.js::79::2",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 15,
+      "candidate_clipped": 1,
+      "candidate_texts": 14,
+      "family": "g271fcfd5132cab80",
+      "sample_id": "jsvul:avo-hq/avo::adc874f441eab24dd1ec5ce581f252682457a409::app/javascript/js/controllers/fields/key_value_controller.js::78::2",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 1,
+      "candidate_clipped": 0,
+      "candidate_texts": 0,
+      "family": "g803b5703c0f07742",
+      "sample_id": "jsvul:berslucas/liljs::779c0dcd8aba434a1c94db7d1d2d990a629f9a6c::src/liljs.js::7::14",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 1,
+      "candidate_clipped": 0,
+      "candidate_texts": 0,
+      "family": "g803b5703c0f07742",
+      "sample_id": "jsvul:berslucas/liljs::bc0919e0031e6e6aa99be9793a6a9afa8ad2e5b1::src/liljs.js::7::14",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 4,
+      "candidate_clipped": 0,
+      "candidate_texts": 3,
+      "family": "g2d50b9843c98bf28",
+      "sample_id": "jsvul:keystonejs/keystone::4ec75f388db8157f757307b828354caabd3bb669::packages/core/src/lib/config/loadConfig.ts::6::7",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 4,
+      "candidate_clipped": 0,
+      "candidate_texts": 3,
+      "family": "g2d50b9843c98bf28",
+      "sample_id": "jsvul:keystonejs/keystone::627e0116166553c7b3159321840d78f19ec75e93::packages/core/src/lib/config/loadConfig.ts::6::7",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 0,
+      "all_text_occurrences": 8,
+      "candidate_clipped": 0,
+      "candidate_texts": 7,
+      "family": "gb71bcaf542b3478b",
+      "sample_id": "jsvul:metarhia/metacalc::2dd5efe8476115a76848857a40e0f2017d9cebc6::lib/sheet.js::5::17",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 0,
+      "all_text_occurrences": 10,
+      "candidate_clipped": 0,
+      "candidate_texts": 9,
+      "family": "gb71bcaf542b3478b",
+      "sample_id": "jsvul:metarhia/metacalc::625c23d63eabfa16fc815f5832b147b08d2144bd::lib/sheet.js::17::17",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 21,
+      "candidate_clipped": 1,
+      "candidate_texts": 20,
+      "family": "gf6cd0c9a8236bac7",
+      "sample_id": "jsvul:nationalsecurityagency/skills-service::1c5818a61ec1a1e53c8ca031361564f2972bf364::dashboard/src/store/modules/auth.js::165::2",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 21,
+      "candidate_clipped": 1,
+      "candidate_texts": 20,
+      "family": "gf6cd0c9a8236bac7",
+      "sample_id": "jsvul:nationalsecurityagency/skills-service::68d4235ddcb16e4f33fc7f19d14ff917817a366c::dashboard/src/store/modules/auth.js::165::2",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 3,
+      "all_text_occurrences": 39,
+      "candidate_clipped": 2,
+      "candidate_texts": 38,
+      "family": "g2323e0b6d277e672",
+      "sample_id": "jsvul:nextcloud/contacts::848c1809c8572cb414e7766b6bd2bdfde1c30664::src/models/contact.js::243::2",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 3,
+      "all_text_occurrences": 39,
+      "candidate_clipped": 2,
+      "candidate_texts": 38,
+      "family": "g2323e0b6d277e672",
+      "sample_id": "jsvul:nextcloud/contacts::9fea0a9c9790e124f5ebe0bba1d156b6024b3d27::src/models/contact.js::243::2",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 16,
+      "all_text_occurrences": 31,
+      "candidate_clipped": 15,
+      "candidate_texts": 30,
+      "family": "ge167417653fda00a",
+      "sample_id": "jsvul:node-saml/xml-crypto::21201723d2ca9bc11288f62cf72552b7d659b000::src/signed-xml.ts::118::2",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 16,
+      "all_text_occurrences": 31,
+      "candidate_clipped": 15,
+      "candidate_texts": 30,
+      "family": "ge167417653fda00a",
+      "sample_id": "jsvul:node-saml/xml-crypto::f8cbbb76b593fd356e8b132cac166565ea9160e5::src/signed-xml.ts::118::2",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 1,
+      "candidate_clipped": 0,
+      "candidate_texts": 0,
+      "family": "g27b24524726ef5f9",
+      "sample_id": "jsvul:pymedusa/medusa::3d656652ab277e47689483912ed7fc443e7023e8::themes-default/slim/src/mixins/manage-cookie.js::7::33",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 1,
+      "candidate_clipped": 0,
+      "candidate_texts": 0,
+      "family": "g27b24524726ef5f9",
+      "sample_id": "jsvul:pymedusa/medusa::e98773f869de7c132b45fa8c76fa66cfc64d1e7b::themes-default/slim/src/mixins/manage-cookie.js::7::33",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 3,
+      "all_text_occurrences": 12,
+      "candidate_clipped": 3,
+      "candidate_texts": 11,
+      "family": "g61c5d6c23e47342f",
+      "sample_id": "jsvul:rkesters/gnuplot::23671d4d3d28570fb19a936a6328bfac742410de::src/index.ts::334::7",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 3,
+      "all_text_occurrences": 11,
+      "candidate_clipped": 3,
+      "candidate_texts": 10,
+      "family": "g61c5d6c23e47342f",
+      "sample_id": "jsvul:rkesters/gnuplot::6383ca819bd5c8afc590348eeacdfbe08a7ace66::src/index.ts::332::7",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 3,
+      "candidate_clipped": 0,
+      "candidate_texts": 2,
+      "family": "gcc0d9f882341053f",
+      "sample_id": "jsvul:sqlpad/sqlpad::2e15670ca148569e1e29aff5058cd9cb1ca90cb6::server/lib/render-connection.js::12::0",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 0,
+      "all_text_occurrences": 4,
+      "candidate_clipped": 0,
+      "candidate_texts": 3,
+      "family": "gcc0d9f882341053f",
+      "sample_id": "jsvul:sqlpad/sqlpad::3f92be386c6cd3e5eba75d85f0700d3ef54daf73::server/lib/render-connection.js::17::0",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 12,
+      "candidate_clipped": 1,
+      "candidate_texts": 11,
+      "family": "g380d4bd6af89e5b1",
+      "sample_id": "jsvul:tinymce/tinymce::5708da4898b427072261a329567cbe7a7050122c::modules/tinymce/src/themes/silver/main/ts/ui/dialog/Dialogs.ts::75::21",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 12,
+      "candidate_clipped": 1,
+      "candidate_texts": 11,
+      "family": "g380d4bd6af89e5b1",
+      "sample_id": "jsvul:tinymce/tinymce::6923d85eba6de3e08ebc9c5a387b5abdaa21150e::modules/tinymce/src/themes/silver/main/ts/ui/dialog/Dialogs.ts::76::21",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 12,
+      "candidate_clipped": 1,
+      "candidate_texts": 11,
+      "family": "g380d4bd6af89e5b1",
+      "sample_id": "jsvul:tinymce/tinymce::78fa310c5397dd5bf45f9b09ebd76d3ea3f88925::modules/tinymce/src/themes/silver/main/ts/ui/dialog/Dialogs.ts::81::21",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 2,
+      "all_text_occurrences": 10,
+      "candidate_clipped": 2,
+      "candidate_texts": 9,
+      "family": "g380d4bd6af89e5b1",
+      "sample_id": "jsvul:tinymce/tinymce::8b29e00959cf37cbc9642178e686aea688a162ee::src/core/main/ts/api/html/SaxParser.ts::59::21",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 1,
+      "all_text_occurrences": 12,
+      "candidate_clipped": 1,
+      "candidate_texts": 11,
+      "family": "g380d4bd6af89e5b1",
+      "sample_id": "jsvul:tinymce/tinymce::8bb2d2646d4e1a718fce61a775fa22e9d317b32d::modules/tinymce/src/themes/silver/main/ts/ui/dialog/Dialogs.ts::82::21",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 2,
+      "all_text_occurrences": 10,
+      "candidate_clipped": 2,
+      "candidate_texts": 9,
+      "family": "g380d4bd6af89e5b1",
+      "sample_id": "jsvul:tinymce/tinymce::aa516c52d4f2104c36af3d640b2adb22e379f9a4::src/core/main/ts/api/html/SaxParser.ts::59::21",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 39,
+      "all_text_occurrences": 253,
+      "candidate_clipped": 39,
+      "candidate_texts": 252,
+      "family": "g65a4ec462b272996",
+      "sample_id": "jsvul:wwbn/avideo::2b44dee815b208da85e1dcafa9839391c3de2655::view/js/script.js::3118::0",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 38,
+      "all_text_occurrences": 252,
+      "candidate_clipped": 38,
+      "candidate_texts": 251,
+      "family": "g65a4ec462b272996",
+      "sample_id": "jsvul:wwbn/avideo::8cfdafcb97e02223d4205b42b47c5dd9cfa0d675::view/js/script.js::3037::0",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 18,
+      "all_text_occurrences": 72,
+      "candidate_clipped": 17,
+      "candidate_texts": 71,
+      "family": "g077f70845e2c26aa",
+      "sample_id": "jsvul:yaireo/tagify::198c0451fad188390390395ccfc84ab371def4c7::src/tagify.js::133::2",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 18,
+      "all_text_occurrences": 72,
+      "candidate_clipped": 17,
+      "candidate_texts": 71,
+      "family": "g077f70845e2c26aa",
+      "sample_id": "jsvul:yaireo/tagify::93f729c6d1bf45666a1dc21d5cae3aefe1b18043::src/tagify.js::133::2",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 3,
+      "all_text_occurrences": 8,
+      "candidate_clipped": 2,
+      "candidate_texts": 7,
+      "family": "gf91c6b92a4cacffc",
+      "sample_id": "jsvul:yanheven/console::32a7b713468161282f2ea01d5e2faff980d924cd::horizon/static/horizon/js/horizon.instances.js::48::21",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 2,
+      "all_text_occurrences": 8,
+      "candidate_clipped": 2,
+      "candidate_texts": 7,
+      "family": "gf91c6b92a4cacffc",
+      "sample_id": "jsvul:yanheven/console::43ac9076ff6bebb831eee649b0340ead3d665c55::horizon/static/horizon/js/horizon.instances.js::48::21",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 2,
+      "all_text_occurrences": 6,
+      "candidate_clipped": 2,
+      "candidate_texts": 5,
+      "family": "g1387ca290bf0bbaa",
+      "sample_id": "jsvul:zoneminder/zoneminder::1546fabfc87a816de1818da7eb3d6fcc21324841::web/skins/classic/views/js/log.js::50::0",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 2,
+      "all_text_occurrences": 6,
+      "candidate_clipped": 2,
+      "candidate_texts": 5,
+      "family": "g1387ca290bf0bbaa",
+      "sample_id": "jsvul:zoneminder/zoneminder::e1028c1d7f23cc1e0941b7b37bb6ae5a04364308::web/skins/classic/views/js/log.js::50::0",
+      "target_clipped": false
+    },
+    {
+      "all_clipped_occurrences": 17,
+      "all_text_occurrences": 38,
+      "candidate_clipped": 16,
+      "candidate_texts": 37,
+      "family": "ga72ab5564eed95a0",
+      "sample_id": "jsvul:apiaryio/fury-adapter-swagger::0b8e00a8dc4977488289adaf939703a66db869d8::src/parser.js::57::2",
+      "target_clipped": true
+    },
+    {
+      "all_clipped_occurrences": 17,
+      "all_text_occurrences": 38,
+      "candidate_clipped": 16,
+      "candidate_texts": 37,
+      "family": "ga72ab5564eed95a0",
+      "sample_id": "jsvul:apiaryio/fury-adapter-swagger::777e2d68f03546a88f3203bbd4725df8b1f662a7::src/parser.js::57::2",
+      "target_clipped": true
+    }
+  ],
+  "caution": "Clip occurrence counts are not independent examples. Visibility of all annotated bytes does not show that discarded surrounding context leaves the embedding/score unchanged.",
+  "counts": {
+    "candidate_clipped_occurrences": 207,
+    "candidate_occurrences": 1095,
+    "clipped_text_occurrences": 225,
+    "records": 40,
+    "target_clipped": 18,
+    "text_occurrences": 1135,
+    "unique_clipped_texts": 122,
+    "unique_texts": 588
+  },
+  "encoder_cap": 256,
+  "parent_inventory_hashes": {
+    "artifacts/results/pilot/P7/evidence-first-runs/20261116T175820Z-raven-pilot-p7-evidence-first-evidence-first-inputs-b74968ee": "5fe5ef54ea4e1965550309981d622200d40e7940568ef4ca6b75f6ca5b08f926",
+    "artifacts/results/pilot/P7/evidence-first-runs/20261116T181030Z-raven-pilot-p7-evidence-first-evidence-first-selection-b74968ee": "733e2992256df171175bebeb43dc557dfcb3bbb69a481b93408e5fc5dc0ff4eb"
+  },
+  "pilot_strata": [
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "appare",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 1,
+      "policy": "dependency_expansion",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "dependency_mean",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "dn_support",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "dn_ungated",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "gated_mmr",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "mmr",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "random",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "relevance",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 1,
+      "policy": "truncation_head",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "truncation_tail",
+      "records": 22,
+      "retained": 17,
+      "target_clipped": false
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "appare",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "dependency_expansion",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "dependency_mean",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "dn_support",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "dn_ungated",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "gated_mmr",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "mmr",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "random",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "relevance",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "truncation_head",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 512,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "truncation_tail",
+      "records": 18,
+      "retained": 8,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "appare",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 1,
+      "policy": "dependency_expansion",
+      "records": 22,
+      "retained": 19,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dependency_mean",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dn_support",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dn_ungated",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 1,
+      "policy": "gated_mmr",
+      "records": 22,
+      "retained": 19,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 1,
+      "policy": "mmr",
+      "records": 22,
+      "retained": 19,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "random",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "relevance",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "truncation_head",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "truncation_tail",
+      "records": 22,
+      "retained": 20,
+      "target_clipped": false
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "appare",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 1,
+      "policy": "dependency_expansion",
+      "records": 18,
+      "retained": 17,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dependency_mean",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dn_support",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dn_ungated",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "gated_mmr",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "mmr",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "random",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "relevance",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "truncation_head",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 1024,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "truncation_tail",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "appare",
+      "records": 22,
+      "retained": 20,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dependency_expansion",
+      "records": 22,
+      "retained": 20,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dependency_mean",
+      "records": 22,
+      "retained": 20,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dn_support",
+      "records": 22,
+      "retained": 20,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dn_ungated",
+      "records": 22,
+      "retained": 20,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 1,
+      "policy": "gated_mmr",
+      "records": 22,
+      "retained": 19,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 1,
+      "policy": "mmr",
+      "records": 22,
+      "retained": 19,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "random",
+      "records": 22,
+      "retained": 20,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "relevance",
+      "records": 22,
+      "retained": 20,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "truncation_head",
+      "records": 22,
+      "retained": 18,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "truncation_tail",
+      "records": 22,
+      "retained": 20,
+      "target_clipped": false
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "appare",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dependency_expansion",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dependency_mean",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dn_support",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dn_ungated",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "gated_mmr",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "mmr",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "random",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "relevance",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "truncation_head",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 2048,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "truncation_tail",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "appare",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "dependency_expansion",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "dependency_mean",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "dn_support",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "dn_ungated",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "gated_mmr",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "mmr",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "random",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "relevance",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "truncation_head",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 0,
+      "opportunity_retained": 0,
+      "policy": "truncation_tail",
+      "records": 22,
+      "retained": 22,
+      "target_clipped": false
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "appare",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dependency_expansion",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dependency_mean",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dn_support",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dn_ungated",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "gated_mmr",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "mmr",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "random",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "relevance",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "truncation_head",
+      "records": 18,
+      "retained": 18,
+      "target_clipped": true
+    },
+    {
+      "budget": 4096,
+      "families": 10,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "truncation_tail",
+      "records": 18,
+      "retained": 16,
+      "target_clipped": true
+    }
+  ],
+  "scope": "post-E1 descriptive analysis; no re-encoding, retuning, label changes or production edits",
+  "xml_mechanism": [
+    {
+      "av_rank": 25,
+      "av_score": 0.128688119967498,
+      "candidate_clipped": true,
+      "direct_dependency_degree": 5,
+      "direct_dependency_neighbours": [
+        "src/signed-xml.ts#10626:method",
+        "src/signed-xml.ts#12977:method",
+        "src/signed-xml.ts#14937:method",
+        "src/signed-xml.ts#24206:method",
+        "src/signed-xml.ts#7838:method"
+      ],
+      "gated_suppression": 5.983183500569654,
+      "raw_rank": 3,
+      "raw_relevance": 0.8986527560763601,
+      "sample_id": "jsvul:node-saml/xml-crypto::21201723d2ca9bc11288f62cf72552b7d659b000::src/signed-xml.ts::118::2",
+      "similarity_neighbours": [
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7518404307655361,
+          "sender": "src/signed-xml.ts#13864:method",
+          "similarity": 0.9242472258126373,
+          "ungated_message": 0.7518404307655361
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7588727975585254,
+          "sender": "src/signed-xml.ts#17471:method",
+          "similarity": 0.9243500321234843,
+          "ungated_message": 0.7588727975585254
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7595380043220622,
+          "sender": "src/signed-xml.ts#26093:method",
+          "similarity": 0.909439859553915,
+          "ungated_message": 0.7595380043220622
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7354627835459489,
+          "sender": "src/signed-xml.ts#32148:method",
+          "similarity": 0.9153643984181874,
+          "ungated_message": 0.7354627835459489
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7513781990654438,
+          "sender": "src/signed-xml.ts#34034:method",
+          "similarity": 0.9177186596450386,
+          "ungated_message": 0.7513781990654438
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7276316140737403,
+          "sender": "src/signed-xml.ts#35627:method",
+          "similarity": 0.9098056161245465,
+          "ungated_message": 0.7276316140737403
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7494237003101949,
+          "sender": "src/signed-xml.ts#36800:method",
+          "similarity": 0.909172084954784,
+          "ungated_message": 0.7494237003101949
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7490359709282022,
+          "sender": "src/signed-xml.ts#6652:method",
+          "similarity": 0.9141744649875151,
+          "ungated_message": 0.7490359709282022
+        }
+      ],
+      "target_clipped": true,
+      "ungated_dn_rank": 19,
+      "ungated_suppression": 5.983183500569654,
+      "unit": "src/signed-xml.ts#9308:method"
+    },
+    {
+      "av_rank": 25,
+      "av_score": 0.128688119967498,
+      "candidate_clipped": true,
+      "direct_dependency_degree": 5,
+      "direct_dependency_neighbours": [
+        "src/signed-xml.ts#10627:method",
+        "src/signed-xml.ts#12978:method",
+        "src/signed-xml.ts#14938:method",
+        "src/signed-xml.ts#24207:method",
+        "src/signed-xml.ts#7839:method"
+      ],
+      "gated_suppression": 5.983183500569654,
+      "raw_rank": 3,
+      "raw_relevance": 0.8986527560763601,
+      "sample_id": "jsvul:node-saml/xml-crypto::f8cbbb76b593fd356e8b132cac166565ea9160e5::src/signed-xml.ts::118::2",
+      "similarity_neighbours": [
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7518404307655361,
+          "sender": "src/signed-xml.ts#13865:method",
+          "similarity": 0.9242472258126373,
+          "ungated_message": 0.7518404307655361
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7588727975585254,
+          "sender": "src/signed-xml.ts#17472:method",
+          "similarity": 0.9243500321234843,
+          "ungated_message": 0.7588727975585254
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7595380043220622,
+          "sender": "src/signed-xml.ts#26094:method",
+          "similarity": 0.909439859553915,
+          "ungated_message": 0.7595380043220622
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7354627835459489,
+          "sender": "src/signed-xml.ts#32149:method",
+          "similarity": 0.9153643984181874,
+          "ungated_message": 0.7354627835459489
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7513781990654438,
+          "sender": "src/signed-xml.ts#34035:method",
+          "similarity": 0.9177186596450386,
+          "ungated_message": 0.7513781990654438
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7276316140737403,
+          "sender": "src/signed-xml.ts#35628:method",
+          "similarity": 0.9098056161245465,
+          "ungated_message": 0.7276316140737403
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7494237003101949,
+          "sender": "src/signed-xml.ts#36801:method",
+          "similarity": 0.909172084954784,
+          "ungated_message": 0.7494237003101949
+        },
+        {
+          "direct_dependency": false,
+          "gated_message": 0.7490359709282022,
+          "sender": "src/signed-xml.ts#6653:method",
+          "similarity": 0.9141744649875151,
+          "ungated_message": 0.7490359709282022
+        }
+      ],
+      "target_clipped": true,
+      "ungated_dn_rank": 19,
+      "ungated_suppression": 5.983183500569654,
+      "unit": "src/signed-xml.ts#9309:method"
+    }
+  ]
+}

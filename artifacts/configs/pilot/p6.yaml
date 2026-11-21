@@ -1,0 +1,31 @@
+
+
+extends: p5c.yaml
+name: raven-pilot-p6
+output_dir: artifacts/results/pilot/P6/runs
+
+p6:
+
+  approved_evidence_selectability_sha256: 5ebaacd832116c175a3ecdb0cd83873a114a69a902c5cc88584f1adc83d7272b
+  methods: [zero_mask, random]
+
+
+  detector_context_limit: 32768
+
+
+  prompt_prefix: ""
+  reserved_tokens: 0
+
+
+  estimate_slack_tokens: 32
+  estimate_audit_rate: 0.05
+  source_map_review_packs: 24
+
+
+  review_supplement_max_budget: 2048
+  limit_samples: null
+  leakage:
+    permutations: 200
+    bootstrap: 1000
+    folds: 5
+    alpha: 0.05

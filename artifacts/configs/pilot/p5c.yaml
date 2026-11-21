@@ -1,0 +1,6 @@
+
+
+
+extends: p5.yaml
+name: raven-pilot-p5c
+output_dir: artifacts/results/pilot/P5C/runs

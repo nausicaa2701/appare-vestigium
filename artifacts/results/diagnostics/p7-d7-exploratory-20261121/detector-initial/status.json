@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "failure_reason": "RuntimeError: training stopped: stopped_swap_guard",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/nausicaa/Documents/GitHub/internship_2/artifacts/code/raven/runlog.py\", line 282, in start_run\n    yield run\n  File \"/Users/nausicaa/Documents/GitHub/internship_2/artifacts/code/raven/cli.py\", line 38, in handler\n    work(run, args)\n  File \"/Users/nausicaa/Documents/GitHub/internship_2/artifacts/code/raven/cli.py\", line 173, in _p7_train\n    detector.run_train(run, args.pack_run, args.fold, args.variant, args.extract_run, args.build_run, args.max_steps,\n  File \"/Users/nausicaa/Documents/GitHub/internship_2/artifacts/code/raven/detector.py\", line 111, in run_train\n    return p7a.run_train(run, pack_run, fold, variant or d[\"primary_variant\"], Path(extract_run or d[\"extract_run\"]),\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/nausicaa/Documents/GitHub/internship_2/artifacts/code/raven/p7a.py\", line 655, in run_train\n    raise RuntimeError(f\"training stopped: {out['status']}\")\nRuntimeError: training stopped: stopped_swap_guard\n",
+  "finished_utc": "2026-11-21T08:02:10.455639+00:00"
+}

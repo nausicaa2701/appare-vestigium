@@ -1,0 +1,91 @@
+
+name: raven-pilot-prerequisites-20261025
+seed: 42
+paid_compute_budget: 0
+data_root: /Volumes/HDD 500G 7200/RAVEN/data
+model_cache: /Volumes/HDD 500G 7200/RAVEN/models/hub
+python: 3.12.6
+python_executable: .venv/pilot-clean/bin/python
+environment_lock: requirements-pilot-local.lock.txt
+sources:
+  jsvul:
+    version_doi: 10.5281/zenodo.18195839
+    version: 1.0.0
+    curation_commit: 036c7f77749c524c51984419a37f666685796ef6
+    recovery_cap: 200
+    cap_unit: source_record_id
+    manual_provenance_cap: 20
+  secbench:
+    commit: 5d362353550a8baa42bba34edd26e5fb86d41b60
+    recovery_cap: 60
+    cap_unit: vulnerability_instance
+    reproduction_cap: 20
+    manual_alignment_cap: 20
+    external_scoring_allowed: false
+    project_declared_license: ISC
+    license_file_present: false
+    third_party_notice_review_complete: false
+  sard_php:
+    suite: 103
+    archive_sha256: 3407473fc2cfa38eea9216b8a7f22559b656f20ba5f2eb3b6992010265780f8c
+    recovery_cap: 60
+    cap_unit: metadata_candidate_pair_id
+    max_twin_cases: 120
+    reproduction_pair_cap: 20
+    manual_pair_cap: 20
+inventory_cap: null
+purge_cap: null
+necessity_review:
+  jsvul_target_cap: 20
+  php_pair_cap: 20
+  second_reviewer: null
+  auxiliary_judge: gpt-4.1-2025-04-14
+  judge_config: artifacts/configs/pilot/judge.yaml
+  context_necessity_claim_gate: restrict
+pilot_calendar:
+  start: '2026-10-25'
+  end: '2026-11-07'
+  timezone: Asia/Saigon
+  inclusive_calendar_days: 14
+  user_confirmed: true
+usable_device_hours: null
+detector:
+  repository: Qwen/Qwen2.5-Coder-1.5B
+  revision: df3ce67c0e24480f20468b6ef2894622d69eb73b
+  device: mps
+  dtype: bfloat16
+  attention: sdpa
+  batch_size: 1
+  effective_gradient_checkpointing: true
+  lora_rank: 16
+  lora_alpha: 32
+  lora_modules: [q_proj, k_proj, v_proj, o_proj]
+encoder:
+  repository: Salesforce/codet5-small
+  revision: b1ee9570c289f21b5922b9c768a1ce12957bf968
+  architecture: T5EncoderModel
+  loaded_parameters: 35316480
+  initial_device: cpu
+  pooling: attention_mask_mean_then_l2
+  initial_unit_token_limit: 256
+  compatibility_adapter: artifacts/scripts/prerequisites/smoke_local.py
+local_profiling:
+  development_context: 2048
+  upper_smoke_context: 4096
+  mps_memory_fraction: 1.0
+  swap_growth_stop_mib: 2048
+  final_budget_grid_frozen: false
+  synthetic_joint_proxy_completed_contexts: [2048, 4096]
+  real_pipeline_joint_run_completed: false
+  long_run_swap_validation_pending: true
+longcodezip:
+  source_revision: 617a30b4e66255fa1c7ad026f703453f76689d1e
+  proposed_variant: adapted_1p5b_sequential
+  scorer_repository: Qwen/Qwen2.5-Coder-1.5B
+  scorer_revision: df3ce67c0e24480f20468b6ef2894622d69eb73b
+  entropy_repository: Qwen/Qwen2.5-Coder-0.5B-Instruct
+  entropy_revision: ea3f2471cf1b1f0db85067f1ef93848e38e88c25
+  execution_smoke_passed: false
+  splitter_fixture_audit_completed: true
+  native_javascript_php_segmentation_supported: false
+  typescript_omission_marker_patch_needed: true

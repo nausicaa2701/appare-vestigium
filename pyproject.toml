@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raven"
+version = "0.1.0"
+description = "Appare Vestigium pilot: budgeted, traceable evidence selection for vulnerability detection"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [{ name = "Hồng Cúc Lê Thị" }]
+dependencies = [
+  "numpy",
+  "pandas",
+  "pyyaml",
+]
+
+[project.scripts]
+raven = "raven.cli:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+]
+
+[tool.setuptools.package-dir]
+"" = "artifacts/code"
+
+[tool.setuptools.packages.find]
+where = ["artifacts/code"]
+
+[tool.pytest.ini_options]
+testpaths = ["artifacts/tests"]
+pythonpath = ["artifacts/code"]
+
+[tool.ruff]
+line-length = 100
+src = ["artifacts/code", "artifacts/scripts", "artifacts/tests"]
+# P0 prerequisite/compute scripts are frozen evidence: their SHA-256 is recorded in
+# artifacts/results/prerequisites/*/final-script-hashes.json, so they are not reformatted.
+extend-exclude = ["artifacts/scripts/prerequisites", "artifacts/scripts/compute"]

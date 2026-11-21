@@ -1,0 +1,24 @@
+
+extends: base.yaml
+name: raven-pilot-p2
+
+p2:
+
+  manifest:
+    jsvul: jsvul_full
+    secbench: secbench
+    sard_php: sard_php_103
+
+  prior_probe_ids: artifacts/results/prerequisites/20261025-deep/pilot-touched-provenance.json
+
+
+  storage:
+    volume: /Volumes/HDD 500G 7200
+    min_free_gib: 20
+    envelope_gib: 50
+
+  snapshot_max_mib: 300
+  file_max_mib: 20
+  npm_tarball_max_mib: 100
+  workers: 4
+  spot_check: 20

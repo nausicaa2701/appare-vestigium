@@ -1,0 +1,66 @@
+
+
+
+extends: p6.yaml
+name: raven-pilot-p7
+output_dir: artifacts/results/pilot/P7/runs
+
+p7:
+  detector:
+    pilot_groups: artifacts/data/pilot_groups.csv
+
+    pilot_groups_sha256: 46d0d35ce48b6541278ddd6207e3e0bf0a51147f5e807bee1123824e838c6d49
+    level: L1
+    budget: 2048
+    method: random
+    training_enabled: true
+
+
+
+
+    teacher_context_limit: 7836
+    manifest_run: artifacts/results/pilot/P7/runs/20261112T144257Z-raven-pilot-p7-p7-manifest-c9211f20
+    extract_run: artifacts/results/pilot/P5/runs/20261105T133853Z-raven-pilot-p5-extract-units-6bddf04f
+    build_run: artifacts/results/pilot/P5/runs/20261105T180919Z-raven-pilot-p5-build-contexts-c8538e86
+
+
+    primary_variant: context_dropout
+    variants: [no_dropout, context_dropout]
+    train:
+      seed: 0
+      epochs: 3
+      lr: 1.0e-4
+      weight_decay: 0.0
+      grad_clip: 1.0
+      lora: {r: 16, alpha: 32, dropout: 0.0, targets: [q_proj, k_proj, v_proj, o_proj]}
+      head: last_token_linear
+      class_weight: balanced_fit_only
+      context_dropout: {keep_prob: 0.5}
+      no_dropout_input: p6_random_pack
+    threshold: {rule: max_mcc, ties: [lower_fpr, closer_to_0.5, larger], reference_input: p6_random_pack}
+    gate: {metric: mcc, interval: 0.95, bootstrap: 10000, unit: family, go_if: lower_bound_above_0,
+           revise_rounds: 1, roundtrip_tolerance: 1.0e-3}
+
+
+  s3:
+    params: {sigma: 1.0, gamma: 2.0, beta: 1.0, k: 8, eta: 1.0, alpha: 0.5, mmr_lambda: 0.5, relevance_floor: 1.0e-6}
+    budgets: [512, 1024, 2048, 4096]
+    perturbation_budget: 2048
+    perturbation_rates: [0.0, 0.1, 0.25, 0.5]
+    perturbation_seeds: [0, 1, 2, 3, 4]
+    bootstrap: 2000
+    encoder_device: cpu
+
+
+  s4:
+    seed: 0
+    budget: 2048
+    epochs: 2
+    batch: 4
+    lr: 1.0e-3
+    hidden: 64
+    temperature: 1.0
+    stop_logit: 0.0
+    baseline_decay: 0.9
+    lambda_y: 0.0
+    action_cap: 64

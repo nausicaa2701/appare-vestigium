@@ -1,0 +1,10 @@
+{
+  "scope": "exploratory engineering only; no D6 gate change or main assessment",
+  "actual_detector_gate": "restrict",
+  "final_detector": "artifacts/results/diagnostics/p7-d7-exploratory-20261121/runs/20261121T083054Z-raven-p7-d7-exploratory-detector-train-1eed570a",
+  "fit_records": 2,
+  "calibration_records": 1,
+  "epochs": 1,
+  "action_cap": 2,
+  "case_selection": "shortest signed teacher views, ties by sample id"
+}

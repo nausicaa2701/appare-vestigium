@@ -1,0 +1,15 @@
+
+extends: p7-debug.yaml
+name: raven-pilot-p7-evidence-first
+output_dir: artifacts/results/pilot/P7/evidence-first-runs
+p7:
+  packer_version: density-v2
+  input_serializer: raven-target-v2
+  augmentation_version: reviewed-fit-reference-fallback-v1
+  detector:
+    training_enabled: false
+  s3:
+    budgets: [512, 1024, 2048, 4096]
+    perturbation_budget: 2048
+    perturbation_rates: [0.0, 0.1, 0.25, 0.5]
+    perturbation_seeds: [0, 1, 2, 3, 4]

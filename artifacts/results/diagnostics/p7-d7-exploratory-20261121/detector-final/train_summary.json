@@ -1,0 +1,103 @@
+{
+  "checkpoint_dir": "artifacts/checkpoints/20261121T083054Z-raven-p7-d7-exploratory-detector-train-1eed570a",
+  "fit_positives": 69,
+  "fit_records": 199,
+  "fold": "final",
+  "gradients_finite": true,
+  "input_bundle": {
+    "path": "artifacts/results/pilot/P7/evidence-first-runs/20261116T175820Z-raven-pilot-p7-evidence-first-evidence-first-inputs-b74968ee",
+    "sha256": "5fe5ef54ea4e1965550309981d622200d40e7940568ef4ca6b75f6ca5b08f926"
+  },
+  "losses_finite": true,
+  "manifest_run": "operation_manifest_reviewed.jsonl@2f59db7537af/inputs@5fe5ef54ea4e",
+  "max_steps": null,
+  "output_files": {
+    "cohort_guard.json": "a8a3b1df40ea65dff5ed0a2dbe9b86ed019b5d2b0d06ddeefac084e9a0832210",
+    "predictions.csv": "2c3f7a45ed5d48e551ead1c66519346c6d09a6e73c6656f6fdbfde2ee8c641b4",
+    "train_log.jsonl": "03857ddcc14376ea0ca3aa11a2701471c9dc781460ccb12ec41bdf5aea9de112"
+  },
+  "pack_run": "20261107T132948Z-raven-pilot-p6-pack-cells-e09f7885",
+  "planned_steps": 195,
+  "roles": {
+    "assessment": 0,
+    "calibration": 33,
+    "fit": 199
+  },
+  "roundtrip_max_abs_diff": 0.0,
+  "roundtrip_ok": true,
+  "sampling": "balanced",
+  "status": "completed",
+  "steps": 195,
+  "thresholds": {
+    "bow": {
+      "candidates": 32,
+      "confusion": [
+        7,
+        13,
+        11,
+        2
+      ],
+      "fpr": 0.5416666666666666,
+      "mcc": 0.21520711550527916,
+      "threshold": 0.0028218378829005567
+    },
+    "reference": {
+      "candidates": 35,
+      "confusion": [
+        9,
+        17,
+        7,
+        0
+      ],
+      "fpr": 0.7083333333333334,
+      "mcc": 0.3177444546511213,
+      "selected_on": "reference",
+      "threshold": 0.40788888931274414
+    },
+    "target_only": {
+      "candidates": 35,
+      "confusion": [
+        9,
+        17,
+        7,
+        0
+      ],
+      "fpr": 0.7083333333333334,
+      "mcc": 0.3177444546511213,
+      "selected_on": "reference",
+      "threshold": 0.40788888931274414
+    }
+  },
+  "tokenizer_revision": "df3ce67c0e24480f20468b6ef2894622d69eb73b",
+  "train_config": {
+    "class_weight": "none_balanced_sampling",
+    "context_dropout": {
+      "keep_prob": 0.5
+    },
+    "effective_batch": 4,
+    "epochs": 3,
+    "grad_clip": 1.0,
+    "head": "last_token_linear",
+    "lora": {
+      "alpha": 32,
+      "dropout": 0.0,
+      "r": 16,
+      "targets": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj"
+      ]
+    },
+    "lr": 0.0001,
+    "no_dropout_input": "p6_random_pack",
+    "sampling": "balanced",
+    "seed": 0,
+    "weight_decay": 0.0
+  },
+  "train_s": 5004.9,
+  "trainable_file_sha256": "63a54c2f793f48e76359cc40f8af780314dd1758e953cbbbb1be0bf0592ab12c",
+  "trainable_sha256": "12e6b92ceb39f19d8a8ed0c5a5bcbb0dce0bb11145f24bcae725c08cd0353dea",
+  "variant": "context_dropout",
+  "w_pos": 1.0
+}

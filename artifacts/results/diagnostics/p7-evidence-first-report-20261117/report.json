@@ -1,0 +1,1319 @@
+{
+  "provenance": {
+    "inputs": {
+      "path": "artifacts/results/pilot/P7/evidence-first-runs/20261116T175820Z-raven-pilot-p7-evidence-first-evidence-first-inputs-b74968ee",
+      "inventory_sha256": "5fe5ef54ea4e1965550309981d622200d40e7940568ef4ca6b75f6ca5b08f926"
+    },
+    "selection": {
+      "path": "artifacts/results/pilot/P7/evidence-first-runs/20261116T181030Z-raven-pilot-p7-evidence-first-evidence-first-selection-b74968ee",
+      "inventory_sha256": "733e2992256df171175bebeb43dc557dfcb3bbb69a481b93408e5fc5dc0ff4eb"
+    },
+    "precision": {
+      "path": "artifacts/results/pilot/P7/evidence-first-runs/20261116T180340Z-raven-pilot-p7-evidence-first-precision-scenarios-b74968ee",
+      "inventory_sha256": "0b70e68702464a647e3895e7d43f980e5daddff0f5139b3eb76c962681c0221e"
+    },
+    "review": {
+      "path": "artifacts/results/pilot/P7/evidence-first-runs/20261116T181053Z-raven-pilot-p7-evidence-first-fit-review-package-b74968ee",
+      "inventory_sha256": "4843e0f07bf696bbee741c537a6e2aee85f15c40b0c4dbe7777541348baf9cb8"
+    }
+  },
+  "checks": "all four immutable inventories verified byte-for-byte",
+  "input_preflight": {
+    "annotation_limit": "existing human spans only; no new independent semantic review",
+    "cases_reviewed": 40,
+    "d1_manifest_sha256": "2f59db7537af0ea9915703ee01813e1fa8700f51c915f2183b2aef4b8bb12689",
+    "errors": [],
+    "graph_available_records": 80,
+    "input_rows": 2469,
+    "model_training_enabled": false,
+    "opportunity": {
+      "1024": {
+        "families": 2,
+        "records": 4
+      },
+      "2048": {
+        "families": 2,
+        "records": 4
+      },
+      "4096": {
+        "families": 1,
+        "records": 2
+      },
+      "512": {
+        "families": 1,
+        "records": 1
+      }
+    },
+    "passed": true,
+    "records": 232,
+    "serializer": "raven-target-v2",
+    "stage": "E0-D3"
+  },
+  "selection": {
+    "budget_violations": 0,
+    "cases": 40,
+    "cells": 9120,
+    "conditions": [
+      "controlled",
+      "detected"
+    ],
+    "decisive_edge_removal": "not_run_no_reviewer_confirmed_edge_annotations",
+    "encoder": {
+      "cached_texts": 588,
+      "device": "cpu",
+      "max_tokens": 256,
+      "parameters": 35316480,
+      "pooling": "mask_mean_l2",
+      "repo": "Salesforce/codet5-small",
+      "revision": "b1ee9570c289f21b5922b9c768a1ce12957bf968"
+    },
+    "families": 18,
+    "graph_pipeline_perturbation": "not_run_no_reconstructed_expansion_graph",
+    "inference": "descriptive development measurements; no superiority or power claim",
+    "parent": "artifacts/results/pilot/P7/evidence-first-runs/20261116T175820Z-raven-pilot-p7-evidence-first-evidence-first-inputs-b74968ee",
+    "source_map_failures": 0,
+    "stage": "E1-E2"
+  },
+  "retention": [
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "relevance",
+      "records": 40
+    },
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "dn_ungated",
+      "records": 40
+    },
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "appare",
+      "records": 40
+    },
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 40
+    },
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "dependency_mean",
+      "records": 40
+    },
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "dn_support",
+      "records": 40
+    },
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "random",
+      "records": 40
+    },
+    {
+      "all_retained": 26,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 1,
+      "policy": "dependency_expansion",
+      "records": 40
+    },
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "mmr",
+      "records": 40
+    },
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "gated_mmr",
+      "records": 40
+    },
+    {
+      "all_retained": 26,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 1,
+      "policy": "truncation_head",
+      "records": 40
+    },
+    {
+      "all_retained": 25,
+      "budget": 512,
+      "feasible": 32,
+      "opportunity_families": 1,
+      "opportunity_records": 1,
+      "opportunity_retained": 0,
+      "policy": "truncation_tail",
+      "records": 40
+    },
+    {
+      "all_retained": 34,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 0,
+      "policy": "relevance",
+      "records": 40
+    },
+    {
+      "all_retained": 34,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 0,
+      "policy": "dn_ungated",
+      "records": 40
+    },
+    {
+      "all_retained": 34,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 0,
+      "policy": "appare",
+      "records": 40
+    },
+    {
+      "all_retained": 34,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 40
+    },
+    {
+      "all_retained": 34,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 0,
+      "policy": "dependency_mean",
+      "records": 40
+    },
+    {
+      "all_retained": 34,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 0,
+      "policy": "dn_support",
+      "records": 40
+    },
+    {
+      "all_retained": 34,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 0,
+      "policy": "random",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "dependency_expansion",
+      "records": 40
+    },
+    {
+      "all_retained": 35,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 1,
+      "policy": "mmr",
+      "records": 40
+    },
+    {
+      "all_retained": 35,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 1,
+      "policy": "gated_mmr",
+      "records": 40
+    },
+    {
+      "all_retained": 34,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 0,
+      "policy": "truncation_head",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 1024,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "truncation_tail",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "relevance",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "dn_ungated",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "appare",
+      "records": 40
+    },
+    {
+      "all_retained": 34,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "dependency_mean",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "dn_support",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "random",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "dependency_expansion",
+      "records": 40
+    },
+    {
+      "all_retained": 35,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 1,
+      "policy": "mmr",
+      "records": 40
+    },
+    {
+      "all_retained": 35,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 1,
+      "policy": "gated_mmr",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "truncation_head",
+      "records": 40
+    },
+    {
+      "all_retained": 36,
+      "budget": 2048,
+      "feasible": 40,
+      "opportunity_families": 2,
+      "opportunity_records": 4,
+      "opportunity_retained": 2,
+      "policy": "truncation_tail",
+      "records": 40
+    },
+    {
+      "all_retained": 40,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "relevance",
+      "records": 40
+    },
+    {
+      "all_retained": 40,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dn_ungated",
+      "records": 40
+    },
+    {
+      "all_retained": 40,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "appare",
+      "records": 40
+    },
+    {
+      "all_retained": 38,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "gated_subtraction",
+      "records": 40
+    },
+    {
+      "all_retained": 40,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dependency_mean",
+      "records": 40
+    },
+    {
+      "all_retained": 40,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "dn_support",
+      "records": 40
+    },
+    {
+      "all_retained": 40,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "random",
+      "records": 40
+    },
+    {
+      "all_retained": 38,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "dependency_expansion",
+      "records": 40
+    },
+    {
+      "all_retained": 40,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "mmr",
+      "records": 40
+    },
+    {
+      "all_retained": 40,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "gated_mmr",
+      "records": 40
+    },
+    {
+      "all_retained": 40,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 2,
+      "policy": "truncation_head",
+      "records": 40
+    },
+    {
+      "all_retained": 38,
+      "budget": 4096,
+      "feasible": 40,
+      "opportunity_families": 1,
+      "opportunity_records": 2,
+      "opportunity_retained": 0,
+      "policy": "truncation_tail",
+      "records": 40
+    }
+  ],
+  "paired_retention": [
+    {
+      "budget": 512,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-relevance",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 512,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-dependency_expansion",
+      "difference": -1.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 512,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-gated_mmr",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 512,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-dn_ungated",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 512,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-appare",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 512,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-gated_subtraction",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 512,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-dependency_mean",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 512,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-dn_support",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 1024,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-relevance",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 1024,
+      "ci_high": -0.5,
+      "ci_low": -0.5,
+      "contrast": "appare-minus-dependency_expansion",
+      "difference": -0.5,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 1024,
+      "ci_high": 0.0,
+      "ci_low": -0.5,
+      "contrast": "appare-minus-gated_mmr",
+      "difference": -0.25,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 1024,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-dn_ungated",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 1024,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-appare",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 1024,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-gated_subtraction",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 1024,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-dependency_mean",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 1024,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-dn_support",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 2048,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-relevance",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 2048,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-dependency_expansion",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 2048,
+      "ci_high": 0.5,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-gated_mmr",
+      "difference": 0.25,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 2048,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-dn_ungated",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 2048,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-appare",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 2048,
+      "ci_high": 1.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-gated_subtraction",
+      "difference": 0.5,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 2048,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-dependency_mean",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 2048,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "contrast": "appare-minus-dn_support",
+      "difference": 0.0,
+      "families": 2,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 4096,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-relevance",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 4096,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-dependency_expansion",
+      "difference": 1.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 4096,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-gated_mmr",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 4096,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-dn_ungated",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 4096,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-appare",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 4096,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-gated_subtraction",
+      "difference": 1.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 4096,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-dependency_mean",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    },
+    {
+      "budget": 4096,
+      "ci_high": null,
+      "ci_low": null,
+      "contrast": "appare-minus-dn_support",
+      "difference": 0.0,
+      "families": 1,
+      "scope": "descriptive conditional opportunity stratum"
+    }
+  ],
+  "graph_sensitivity": [
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "appare",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "appare",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "appare",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "appare",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "appare",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "appare",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "dn_ungated",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "dn_ungated",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "dn_ungated",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "dn_ungated",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "dn_ungated",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "dn_ungated",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "gated_subtraction",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "gated_subtraction",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "gated_subtraction",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "gated_subtraction",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.3,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "gated_subtraction",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.15,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.2,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "gated_subtraction",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.1,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.1,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "gated_mmr",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.05,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "gated_mmr",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.3,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "gated_mmr",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.15,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "gated_mmr",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.1,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "gated_mmr",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.05,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.2,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "gated_mmr",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.1,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "dependency_mean",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "dependency_mean",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "dependency_mean",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "dependency_mean",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "dependency_mean",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "dependency_mean",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "dn_support",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "dn_support",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "delete",
+      "policy": "dn_support",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "dn_support",
+      "rate": 0.1,
+      "realized_edge_changes": 470,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "dn_support",
+      "rate": 0.25,
+      "realized_edge_changes": 1190,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    },
+    {
+      "cells": 200,
+      "ci_high": 0.0,
+      "ci_low": 0.0,
+      "families": 2,
+      "kind": "add",
+      "policy": "dn_support",
+      "rate": 0.5,
+      "realized_edge_changes": 2380,
+      "retention_difference": 0.0,
+      "seed_scope": "within-family repetitions, not independent samples"
+    }
+  ],
+  "planned_balanced_micro_exposure_audit": [
+    {
+      "fold": "0",
+      "planned_micro_exposures": 504,
+      "changed_input_exposures": 52,
+      "accepted_protected_exposures": 62,
+      "reviewed_reference_missing_exposures": 0,
+      "changed_exposure_rate": 0.10317460317460317
+    },
+    {
+      "fold": "1",
+      "planned_micro_exposures": 492,
+      "changed_input_exposures": 16,
+      "accepted_protected_exposures": 26,
+      "reviewed_reference_missing_exposures": 0,
+      "changed_exposure_rate": 0.032520325203252036
+    },
+    {
+      "fold": "2",
+      "planned_micro_exposures": 546,
+      "changed_input_exposures": 52,
+      "accepted_protected_exposures": 67,
+      "reviewed_reference_missing_exposures": 9,
+      "changed_exposure_rate": 0.09523809523809523
+    },
+    {
+      "fold": "final",
+      "planned_micro_exposures": 780,
+      "changed_input_exposures": 65,
+      "accepted_protected_exposures": 82,
+      "reviewed_reference_missing_exposures": 8,
+      "changed_exposure_rate": 0.08333333333333333
+    }
+  ],
+  "exposure_limit": "replayed frozen deterministic schedule, not a report of completed training",
+  "json_note": "undefined bootstrap limits normalized to null in this derived report; raw archived outputs preserved"
+}

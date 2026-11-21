@@ -1,0 +1,13 @@
+{
+  "description": "Archived source with comments and non-module docstrings removed; AST-equivalent after excluding documentation. Original hashes identify the archived files.",
+  "files": {
+    "packer_source.py": {
+      "original_sha256": "b5c2069b44d345f1ae3fd3ad0d5cc79fa55fee56488b70d0b2e8e72702f56e56",
+      "comment_trimmed_sha256": "e87cef1c6290f1f9a3b84906cb80e85565806c01236304b05e5298bb6f96b895"
+    },
+    "probe_source.py": {
+      "original_sha256": "f645d4a2403496b7b9576a91532fa0f3f0725b154bba445da9d8c2b15732717b",
+      "comment_trimmed_sha256": "77576427f3686af50896380bea5810523ea772677ce89ebdfeb3c5b6431fdcc4"
+    }
+  }
+}

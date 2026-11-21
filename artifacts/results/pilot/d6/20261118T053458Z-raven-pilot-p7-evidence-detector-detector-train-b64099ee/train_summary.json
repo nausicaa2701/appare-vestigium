@@ -1,0 +1,103 @@
+{
+  "checkpoint_dir": "artifacts/checkpoints/20261118T053458Z-raven-pilot-p7-evidence-detector-detector-train-b64099ee",
+  "fit_positives": 43,
+  "fit_records": 125,
+  "fold": "1",
+  "gradients_finite": true,
+  "input_bundle": {
+    "path": "artifacts/results/pilot/P7/evidence-first-runs/20261116T175820Z-raven-pilot-p7-evidence-first-evidence-first-inputs-b74968ee",
+    "sha256": "5fe5ef54ea4e1965550309981d622200d40e7940568ef4ca6b75f6ca5b08f926"
+  },
+  "losses_finite": true,
+  "manifest_run": "operation_manifest_reviewed.jsonl@2f59db7537af/inputs@5fe5ef54ea4e",
+  "max_steps": null,
+  "output_files": {
+    "cohort_guard.json": "1c6474a0938db99346890a2b8474402a3dfa075f2f0b3b4a08e5af2471f96405",
+    "predictions.csv": "52a1e32f6f111090973022be27b75d67c1a1559062c1e759158856b2bc153300",
+    "train_log.jsonl": "d66507f184d209df0cb62bb1f8584b5d840ffea351f14a0f0f0e5c467efa6daa"
+  },
+  "pack_run": "20261107T132948Z-raven-pilot-p6-pack-cells-e09f7885",
+  "planned_steps": 123,
+  "roles": {
+    "assessment": 84,
+    "calibration": 23,
+    "fit": 125
+  },
+  "roundtrip_max_abs_diff": 0.0,
+  "roundtrip_ok": true,
+  "sampling": "balanced",
+  "status": "completed",
+  "steps": 123,
+  "thresholds": {
+    "bow": {
+      "candidates": 23,
+      "confusion": [
+        5,
+        7,
+        10,
+        1
+      ],
+      "fpr": 0.4117647058823529,
+      "mcc": 0.37057951116309706,
+      "threshold": 0.0626052112621963
+    },
+    "reference": {
+      "candidates": 25,
+      "confusion": [
+        5,
+        9,
+        8,
+        1
+      ],
+      "fpr": 0.5294117647058824,
+      "mcc": 0.27344899741289763,
+      "selected_on": "reference",
+      "threshold": 0.31597208976745605
+    },
+    "target_only": {
+      "candidates": 25,
+      "confusion": [
+        5,
+        9,
+        8,
+        1
+      ],
+      "fpr": 0.5294117647058824,
+      "mcc": 0.27344899741289763,
+      "selected_on": "reference",
+      "threshold": 0.31597208976745605
+    }
+  },
+  "tokenizer_revision": "df3ce67c0e24480f20468b6ef2894622d69eb73b",
+  "train_config": {
+    "class_weight": "none_balanced_sampling",
+    "context_dropout": {
+      "keep_prob": 0.5
+    },
+    "effective_batch": 4,
+    "epochs": 3,
+    "grad_clip": 1.0,
+    "head": "last_token_linear",
+    "lora": {
+      "alpha": 32,
+      "dropout": 0.0,
+      "r": 16,
+      "targets": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj"
+      ]
+    },
+    "lr": 0.0001,
+    "no_dropout_input": "p6_random_pack",
+    "sampling": "balanced",
+    "seed": 0,
+    "weight_decay": 0.0
+  },
+  "train_s": 3282.3,
+  "trainable_file_sha256": "36f90c3b306fa41b3cdfcbe0f83b45c0314238fae9a1f242bde799853568f8f1",
+  "trainable_sha256": "cafb15ba91ba2a0849890ae850deecba1249297d2e6b053977ea9438971e0890",
+  "variant": "context_dropout",
+  "w_pos": 1.0
+}

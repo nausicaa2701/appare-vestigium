@@ -1,0 +1,44 @@
+
+
+
+extends: p4.yaml
+name: raven-pilot-p5
+
+p5:
+  unit_spec: docs/unit-spec.md
+  extractor:
+
+
+    min_parse_rate: 0.95
+    grammars:
+      tree_sitter: 0.26.0
+      javascript: 0.25.0
+      typescript: 0.23.2
+      php: 0.25.1
+    module_wrapper_min_line_share: 0.80
+    max_eligible_file_bytes: 1048576
+  serialisation: raven-pack-v1
+
+  bstar_fraction_of_median_l2: 0.25
+
+  min_share_over_smallest_budget: 0.50
+  review:
+    rubric: docs/annotation-rubric.md
+    judge: artifacts/configs/pilot/judge.yaml
+    cap_jsvul_targets: 20
+    cap_php_pairs: 20
+
+
+  graph_audit_min_edges: 30
+  contexts:
+
+
+
+    label_conflicts:
+      key: [L0, L3]
+      rule: exclude_from_primary
+
+
+    sard_path_pseudonym: "sard/<sha256(case id)[:12]>.php"
+    php_internal_functions: "php -r get_defined_functions()['internal'] (version recorded)"
+  graph_audit_sample: 36

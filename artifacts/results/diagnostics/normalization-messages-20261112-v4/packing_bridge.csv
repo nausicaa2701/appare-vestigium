@@ -1,0 +1,109 @@
+scenario,method,budget,tokens,selected_ids,component_retention,all_components,pack_sha256
+linked_complements_with_duplicate_rivals,relevance,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+linked_complements_with_duplicate_rivals,dn,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+linked_complements_with_duplicate_rivals,gated_dn,64,62,"[1, 7, 0]",1.0,1,e600e5140e7b6fcf8f2d229cf80ca48162c4dd80965a7f1c3df2b783deeeda65
+linked_complements_with_duplicate_rivals,dependency_mean,64,62,"[1, 7, 0]",1.0,1,e600e5140e7b6fcf8f2d229cf80ca48162c4dd80965a7f1c3df2b783deeeda65
+linked_complements_with_duplicate_rivals,gated_dn_with_support,64,62,"[1, 7, 0]",1.0,1,e600e5140e7b6fcf8f2d229cf80ca48162c4dd80965a7f1c3df2b783deeeda65
+linked_complements_with_duplicate_rivals,gated_subtraction,64,62,"[1, 7, 0]",1.0,1,e600e5140e7b6fcf8f2d229cf80ca48162c4dd80965a7f1c3df2b783deeeda65
+linked_complements_with_duplicate_rivals,relevance,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+linked_complements_with_duplicate_rivals,dn,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+linked_complements_with_duplicate_rivals,gated_dn,96,96,"[1, 7, 14, 3, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+linked_complements_with_duplicate_rivals,dependency_mean,96,96,"[1, 7, 14, 3, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+linked_complements_with_duplicate_rivals,gated_dn_with_support,96,96,"[1, 7, 14, 3, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+linked_complements_with_duplicate_rivals,gated_subtraction,96,96,"[1, 7, 11, 0, 5]",1.0,1,03bc743ad04d61b76682996bbddd7071b89eb359677c947c94cc61930a327f3d
+missing_dependency,relevance,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+missing_dependency,dn,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+missing_dependency,gated_dn,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+missing_dependency,dependency_mean,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+missing_dependency,gated_dn_with_support,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+missing_dependency,gated_subtraction,64,62,"[1, 11, 0]",0.5,0,b76d5b12c6f249a63159922a36281335d70c94ab4ac741c6f794e95914a53646
+missing_dependency,relevance,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+missing_dependency,dn,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+missing_dependency,gated_dn,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+missing_dependency,dependency_mean,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+missing_dependency,gated_dn_with_support,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+missing_dependency,gated_subtraction,96,94,"[1, 11, 0, 5, 10]",0.5,0,597a8a3e57b6d30b01c88db589fa51b707dda23350a7085b8e9850985ac939c5
+false_protection_of_duplicate_rivals,relevance,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+false_protection_of_duplicate_rivals,dn,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+false_protection_of_duplicate_rivals,gated_dn,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+false_protection_of_duplicate_rivals,dependency_mean,64,64,"[14, 3, 0]",0.0,0,247a11de859a1f82d8ef297c368e589936a4d30cbc3f089ead621244daf3f8ff
+false_protection_of_duplicate_rivals,gated_dn_with_support,64,64,"[14, 3, 0]",0.0,0,247a11de859a1f82d8ef297c368e589936a4d30cbc3f089ead621244daf3f8ff
+false_protection_of_duplicate_rivals,gated_subtraction,64,62,"[1, 14, 0]",0.5,0,22179940513f7ef0d0818df96d118bb000916849f759f926e6e8be5cb6660d72
+false_protection_of_duplicate_rivals,relevance,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+false_protection_of_duplicate_rivals,dn,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+false_protection_of_duplicate_rivals,gated_dn,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+false_protection_of_duplicate_rivals,dependency_mean,96,96,"[14, 3, 1, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+false_protection_of_duplicate_rivals,gated_dn_with_support,96,96,"[14, 3, 1, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+false_protection_of_duplicate_rivals,gated_subtraction,96,96,"[1, 14, 3, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+singleton_rivals,relevance,64,64,"[6, 10, 9]",0.5,0,c887c9a0a2104723b6085b2644818d7d2674b116bd9a652ba4b88da95960df9c
+singleton_rivals,dn,64,64,"[10, 9, 6]",0.5,0,c887c9a0a2104723b6085b2644818d7d2674b116bd9a652ba4b88da95960df9c
+singleton_rivals,gated_dn,64,64,"[6, 10, 9]",0.5,0,c887c9a0a2104723b6085b2644818d7d2674b116bd9a652ba4b88da95960df9c
+singleton_rivals,dependency_mean,64,64,"[6, 5, 10]",1.0,1,42f8d62e6fcffec7d1709d6c1edc9bff2b9312d969e2d51d0488ffb87f6adc42
+singleton_rivals,gated_dn_with_support,64,64,"[6, 5, 10]",1.0,1,42f8d62e6fcffec7d1709d6c1edc9bff2b9312d969e2d51d0488ffb87f6adc42
+singleton_rivals,gated_subtraction,64,64,"[6, 10, 9]",0.5,0,c887c9a0a2104723b6085b2644818d7d2674b116bd9a652ba4b88da95960df9c
+singleton_rivals,relevance,96,96,"[6, 10, 9, 5, 13]",1.0,1,594bd01259612cbc06582c68c4a301f7ef98928353b6d4dcf21905610179c72f
+singleton_rivals,dn,96,96,"[10, 9, 6, 5, 13]",1.0,1,594bd01259612cbc06582c68c4a301f7ef98928353b6d4dcf21905610179c72f
+singleton_rivals,gated_dn,96,96,"[6, 10, 9, 5, 13]",1.0,1,594bd01259612cbc06582c68c4a301f7ef98928353b6d4dcf21905610179c72f
+singleton_rivals,dependency_mean,96,96,"[6, 5, 10, 9, 13]",1.0,1,594bd01259612cbc06582c68c4a301f7ef98928353b6d4dcf21905610179c72f
+singleton_rivals,gated_dn_with_support,96,96,"[6, 5, 10, 9, 13]",1.0,1,594bd01259612cbc06582c68c4a301f7ef98928353b6d4dcf21905610179c72f
+singleton_rivals,gated_subtraction,96,96,"[6, 10, 9, 5, 13]",1.0,1,594bd01259612cbc06582c68c4a301f7ef98928353b6d4dcf21905610179c72f
+weak_companion,relevance,64,64,"[0, 4, 14]",0.5,0,dc26d3befd34bc1bab7a58c5b22a629bcbb2eef73f15541cb4d5606aeffb626d
+weak_companion,dn,64,64,"[0, 4, 14]",0.5,0,dc26d3befd34bc1bab7a58c5b22a629bcbb2eef73f15541cb4d5606aeffb626d
+weak_companion,gated_dn,64,64,"[0, 4, 14]",0.5,0,dc26d3befd34bc1bab7a58c5b22a629bcbb2eef73f15541cb4d5606aeffb626d
+weak_companion,dependency_mean,64,64,"[0, 11, 4]",1.0,1,cdde5120591ab10deee155b010e31ea201bff4e55043d7ab92bc62db392ddde5
+weak_companion,gated_dn_with_support,64,64,"[0, 11, 4]",1.0,1,cdde5120591ab10deee155b010e31ea201bff4e55043d7ab92bc62db392ddde5
+weak_companion,gated_subtraction,64,64,"[0, 4, 14]",0.5,0,dc26d3befd34bc1bab7a58c5b22a629bcbb2eef73f15541cb4d5606aeffb626d
+weak_companion,relevance,96,96,"[0, 4, 14, 7, 6]",0.5,0,c085c085919871e9d5a358dcd88e0ecd58b6d81f4353dc66b17e86ef7f571a6b
+weak_companion,dn,96,96,"[0, 4, 14, 7, 6]",0.5,0,c085c085919871e9d5a358dcd88e0ecd58b6d81f4353dc66b17e86ef7f571a6b
+weak_companion,gated_dn,96,96,"[0, 4, 14, 7, 6]",0.5,0,c085c085919871e9d5a358dcd88e0ecd58b6d81f4353dc66b17e86ef7f571a6b
+weak_companion,dependency_mean,96,96,"[0, 11, 4, 14, 15]",1.0,1,e446a2d056dafdbd054c236919b3c6269a6d77693120f60b42e63f88f67dc3fb
+weak_companion,gated_dn_with_support,96,96,"[0, 11, 4, 14, 15]",1.0,1,e446a2d056dafdbd054c236919b3c6269a6d77693120f60b42e63f88f67dc3fb
+weak_companion,gated_subtraction,96,96,"[0, 4, 14, 7, 6]",0.5,0,c085c085919871e9d5a358dcd88e0ecd58b6d81f4353dc66b17e86ef7f571a6b
+observational_twin,relevance,64,64,"[0, 4, 14]",0.5,0,dc26d3befd34bc1bab7a58c5b22a629bcbb2eef73f15541cb4d5606aeffb626d
+observational_twin,dn,64,64,"[0, 4, 14]",0.5,0,dc26d3befd34bc1bab7a58c5b22a629bcbb2eef73f15541cb4d5606aeffb626d
+observational_twin,gated_dn,64,64,"[0, 4, 14]",0.5,0,dc26d3befd34bc1bab7a58c5b22a629bcbb2eef73f15541cb4d5606aeffb626d
+observational_twin,dependency_mean,64,64,"[0, 11, 4]",0.5,0,cdde5120591ab10deee155b010e31ea201bff4e55043d7ab92bc62db392ddde5
+observational_twin,gated_dn_with_support,64,64,"[0, 11, 4]",0.5,0,cdde5120591ab10deee155b010e31ea201bff4e55043d7ab92bc62db392ddde5
+observational_twin,gated_subtraction,64,64,"[0, 4, 14]",0.5,0,dc26d3befd34bc1bab7a58c5b22a629bcbb2eef73f15541cb4d5606aeffb626d
+observational_twin,relevance,96,96,"[0, 4, 14, 7, 6]",1.0,1,c085c085919871e9d5a358dcd88e0ecd58b6d81f4353dc66b17e86ef7f571a6b
+observational_twin,dn,96,96,"[0, 4, 14, 7, 6]",1.0,1,c085c085919871e9d5a358dcd88e0ecd58b6d81f4353dc66b17e86ef7f571a6b
+observational_twin,gated_dn,96,96,"[0, 4, 14, 7, 6]",1.0,1,c085c085919871e9d5a358dcd88e0ecd58b6d81f4353dc66b17e86ef7f571a6b
+observational_twin,dependency_mean,96,96,"[0, 11, 4, 14, 15]",0.5,0,e446a2d056dafdbd054c236919b3c6269a6d77693120f60b42e63f88f67dc3fb
+observational_twin,gated_dn_with_support,96,96,"[0, 11, 4, 14, 15]",0.5,0,e446a2d056dafdbd054c236919b3c6269a6d77693120f60b42e63f88f67dc3fb
+observational_twin,gated_subtraction,96,96,"[0, 4, 14, 7, 6]",1.0,1,c085c085919871e9d5a358dcd88e0ecd58b6d81f4353dc66b17e86ef7f571a6b
+dependency_hub,relevance,64,64,"[5, 1, 4]",0.5,0,0d177010503ce1cfc2bb697cb1a63ce5770673ac03607e2cde616f2bd9cd2d4f
+dependency_hub,dn,64,64,"[5, 7, 4]",0.5,0,7d7940a647481202302e76ef5afd6a6a82eba207acb353fda664e4daa441bffd
+dependency_hub,gated_dn,64,64,"[5, 7, 4]",0.5,0,7d7940a647481202302e76ef5afd6a6a82eba207acb353fda664e4daa441bffd
+dependency_hub,dependency_mean,64,64,"[5, 1, 4]",0.5,0,0d177010503ce1cfc2bb697cb1a63ce5770673ac03607e2cde616f2bd9cd2d4f
+dependency_hub,gated_dn_with_support,64,64,"[5, 7, 4]",0.5,0,7d7940a647481202302e76ef5afd6a6a82eba207acb353fda664e4daa441bffd
+dependency_hub,gated_subtraction,64,64,"[5, 7, 4]",0.5,0,7d7940a647481202302e76ef5afd6a6a82eba207acb353fda664e4daa441bffd
+dependency_hub,relevance,96,96,"[5, 1, 3, 7, 4]",0.5,0,df517f6a6389ec73c7acce1d16ed7114965f3e8e4e5c375e6c3f50f8ab63a06c
+dependency_hub,dn,96,96,"[5, 7, 1, 3, 4]",0.5,0,df517f6a6389ec73c7acce1d16ed7114965f3e8e4e5c375e6c3f50f8ab63a06c
+dependency_hub,gated_dn,96,96,"[5, 7, 1, 3, 4]",0.5,0,df517f6a6389ec73c7acce1d16ed7114965f3e8e4e5c375e6c3f50f8ab63a06c
+dependency_hub,dependency_mean,96,96,"[5, 1, 3, 7, 4]",0.5,0,df517f6a6389ec73c7acce1d16ed7114965f3e8e4e5c375e6c3f50f8ab63a06c
+dependency_hub,gated_dn_with_support,96,96,"[5, 7, 14, 1, 6]",1.0,1,39452e46b466406acb49d8938e205a4326a8555871dc77a614a53924cfe9b633
+dependency_hub,gated_subtraction,96,96,"[5, 7, 14, 13, 4]",1.0,1,e5daefbcd28784c6ab277d089de37bdcd8b8d4bafa3a8b83d2637390d6c69c91
+all_similar_unlinked,relevance,64,62,"[12, 10, 11]",0.5,0,22c906d22b34cd2ec84e072f9251aec22eec0a09ca6d65d03e20cddeb14de803
+all_similar_unlinked,dn,64,62,"[10, 11, 12]",0.5,0,22c906d22b34cd2ec84e072f9251aec22eec0a09ca6d65d03e20cddeb14de803
+all_similar_unlinked,gated_dn,64,62,"[10, 11, 12]",0.5,0,22c906d22b34cd2ec84e072f9251aec22eec0a09ca6d65d03e20cddeb14de803
+all_similar_unlinked,dependency_mean,64,62,"[12, 10, 11]",0.5,0,22c906d22b34cd2ec84e072f9251aec22eec0a09ca6d65d03e20cddeb14de803
+all_similar_unlinked,gated_dn_with_support,64,62,"[10, 11, 12]",0.5,0,22c906d22b34cd2ec84e072f9251aec22eec0a09ca6d65d03e20cddeb14de803
+all_similar_unlinked,gated_subtraction,64,60,"[0, 1, 2]",0.0,0,fdb7d9d2f8c51b421e53c9c072f641936dfb270728f9ff75d2b759974bb77dd0
+all_similar_unlinked,relevance,96,96,"[12, 10, 11, 6, 15]",1.0,1,8f368a6382fb36464cd690d2d3727d9e209e265057ea5fbec66b5c65ff788396
+all_similar_unlinked,dn,96,96,"[10, 11, 12, 6, 15]",1.0,1,8f368a6382fb36464cd690d2d3727d9e209e265057ea5fbec66b5c65ff788396
+all_similar_unlinked,gated_dn,96,96,"[10, 11, 12, 6, 15]",1.0,1,8f368a6382fb36464cd690d2d3727d9e209e265057ea5fbec66b5c65ff788396
+all_similar_unlinked,dependency_mean,96,96,"[12, 10, 11, 6, 15]",1.0,1,8f368a6382fb36464cd690d2d3727d9e209e265057ea5fbec66b5c65ff788396
+all_similar_unlinked,gated_dn_with_support,96,96,"[10, 11, 12, 6, 15]",1.0,1,8f368a6382fb36464cd690d2d3727d9e209e265057ea5fbec66b5c65ff788396
+all_similar_unlinked,gated_subtraction,96,90,"[0, 1, 2, 3, 4]",0.0,0,9c6cad68eca94c67fb983847de7edffb11345ab52f5288c0b3ea2636d80507f2
+dominant_duplicate_rivals,relevance,64,64,"[14, 3, 0]",0.0,0,247a11de859a1f82d8ef297c368e589936a4d30cbc3f089ead621244daf3f8ff
+dominant_duplicate_rivals,dn,64,64,"[14, 3, 0]",0.0,0,247a11de859a1f82d8ef297c368e589936a4d30cbc3f089ead621244daf3f8ff
+dominant_duplicate_rivals,gated_dn,64,62,"[1, 7, 0]",1.0,1,e600e5140e7b6fcf8f2d229cf80ca48162c4dd80965a7f1c3df2b783deeeda65
+dominant_duplicate_rivals,dependency_mean,64,64,"[14, 3, 0]",0.0,0,247a11de859a1f82d8ef297c368e589936a4d30cbc3f089ead621244daf3f8ff
+dominant_duplicate_rivals,gated_dn_with_support,64,62,"[1, 7, 0]",1.0,1,e600e5140e7b6fcf8f2d229cf80ca48162c4dd80965a7f1c3df2b783deeeda65
+dominant_duplicate_rivals,gated_subtraction,64,62,"[1, 7, 0]",1.0,1,e600e5140e7b6fcf8f2d229cf80ca48162c4dd80965a7f1c3df2b783deeeda65
+dominant_duplicate_rivals,relevance,96,96,"[14, 3, 1, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+dominant_duplicate_rivals,dn,96,96,"[14, 3, 1, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+dominant_duplicate_rivals,gated_dn,96,96,"[1, 7, 14, 3, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+dominant_duplicate_rivals,dependency_mean,96,96,"[14, 3, 1, 7, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+dominant_duplicate_rivals,gated_dn_with_support,96,96,"[1, 7, 14, 3, 0]",1.0,1,c8540feaac418831fde8952ef10e65f457dc2b74053c6904476a8284ba5e42b5
+dominant_duplicate_rivals,gated_subtraction,96,96,"[1, 7, 11, 0, 5]",1.0,1,03bc743ad04d61b76682996bbddd7071b89eb359677c947c94cc61930a327f3d

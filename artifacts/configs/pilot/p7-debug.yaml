@@ -1,0 +1,19 @@
+
+
+extends: p7-recovery.yaml
+name: raven-pilot-p7-debug
+output_dir: artifacts/results/pilot/P7/debug-runs
+p7:
+  detector:
+    training_enabled: false
+    operation_manifest:
+      path: artifacts/results/pilot/P7/debug-20261115/review/operation_manifest_reviewed.jsonl
+      sha256: 2f59db7537af0ea9915703ee01813e1fa8700f51c915f2183b2aef4b8bb12689
+      source_manifest:
+        path: artifacts/results/pilot/P7/data-runs/20261113T133336Z-raven-p7-data-p7-data-qualification-8c230c04/operation_manifest.jsonl
+        sha256: 53ee25bed58c363fa361c7073b8318717aa76ef72fd1e55cd64b1cc1fb65a1b3
+      funnel: artifacts/results/pilot/P7/debug-20261115/review/review_exclusions.json
+      packs_dir: artifacts/results/pilot/P7/data-runs/20261113T133336Z-raven-p7-data-p7-data-qualification-8c230c04/packs
+      records: artifacts/results/pilot/P7/data-runs/20261113T133336Z-raven-p7-data-p7-data-qualification-8c230c04/records.jsonl
+      pairs: artifacts/results/pilot/P7/data-runs/20261113T133336Z-raven-p7-data-p7-data-qualification-8c230c04/pairs.jsonl
+      expect: {records: 232, positives: 78, families: 69}

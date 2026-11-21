@@ -1,0 +1,25 @@
+
+extends: p7.yaml
+name: raven-pilot-p7-recovery
+output_dir: artifacts/results/pilot/P7/recovery-runs
+p7:
+  packer_version: density-v2
+  split_version: stratified-recovery-v1
+  detector:
+    require_calibration_classes: true
+    train:
+      sampling: balanced
+      effective_batch: 4
+      class_weight: none_balanced_sampling
+  s4:
+    stop_mode: bernoulli
+    stop_logit: -2.1972245773362196
+    require_useful_gate: true
+  recovery:
+    smoke_fit_per_class: 2
+    smoke_epochs: 16
+    smoke_max_tokens: 1024
+
+    smoke_loss_ratio: 0.9
+    smoke_mcc: 0.5
+    stage1_compute_cap_hours: 216

@@ -1,0 +1,37 @@
+{
+  "train_run": "20261121T083054Z-raven-p7-d7-exploratory-detector-train-1eed570a",
+  "detector_sha256_before": "12e6b92ceb39f19d8a8ed0c5a5bcbb0dce0bb11145f24bcae725c08cd0353dea",
+  "detector_sha256_after": "12e6b92ceb39f19d8a8ed0c5a5bcbb0dce0bb11145f24bcae725c08cd0353dea",
+  "detector_unchanged": true,
+  "fit_records": 2,
+  "validation_records": 1,
+  "teacher_s": 1.4,
+  "detector_calls": 4,
+  "retokenized": 24,
+  "s4_config": {
+    "seed": 0,
+    "budget": 2048,
+    "epochs": 1,
+    "batch": 1,
+    "lr": 0.001,
+    "hidden": 64,
+    "temperature": 1.0,
+    "stop_logit": -2.1972245773362196,
+    "baseline_decay": 0.9,
+    "lambda_y": 0.0,
+    "action_cap": 2,
+    "stop_mode": "bernoulli",
+    "require_useful_gate": true,
+    "gate_run": "artifacts/results/pilot/P7/evidence-first-runs/20261118T090815Z-raven-pilot-p7-evidence-detector-detector-gate-b64099ee"
+  },
+  "sigma_final": 0.9995307429317906,
+  "gamma_final": 2.000469660499051,
+  "teacher_calls": 3,
+  "output_files": {
+    "s4_log.jsonl": "92b5484ebeba1758105ee5d8aa571c4325d9ccadcc1ca35b3685ac1cc614a66c",
+    "s4_validation.csv": "917f580375ce824ff9d93cefa017831b09719734488fa09a2aa2dcb49dea3cb6",
+    "policy.pt": "59af079ae961299ffa54bdec2685576a62e881c6a0189e0e888216b79c8ab636",
+    "s4_input_contract.json": "8d6d6e2739d54cab6f58780bc79780df733da1a560d65580ded586012fb1ab70"
+  },
+  "scope": "exploratory engineering only; D6 restrict; no main assessment"
+}

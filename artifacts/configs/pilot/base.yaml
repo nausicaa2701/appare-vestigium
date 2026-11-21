@@ -1,0 +1,43 @@
+
+
+name: raven-pilot
+seed: 42
+output_dir: artifacts/runs
+
+sources:
+  jsvul:
+    version_doi: 10.5281/zenodo.18195839
+    version: 1.0.0
+    curation_commit: 036c7f77749c524c51984419a37f666685796ef6
+    role: training_development
+  secbench:
+    commit: 5d362353550a8baa42bba34edd26e5fb86d41b60
+    role: external
+    external_scoring_allowed: false
+  sard_php:
+    suite: 103
+    archive_sha256: 3407473fc2cfa38eea9216b8a7f22559b656f20ba5f2eb3b6992010265780f8c
+    role: mechanism_probe
+
+
+cap:
+  jsvul: 200
+  secbench: 60
+  sard_php: 60
+
+
+budgets: [512, 1024, 2048, 4096, 8192]
+
+
+tokenizer_revision: df3ce67c0e24480f20468b6ef2894622d69eb73b
+
+
+compute:
+  device: mps
+  mps_memory_fraction: 1.0
+  swap_growth_stop_mib: 2048
+  stop_on_critical_memory_pressure: true
+  isolated_process_per_cell: true
+  batch_size: 1
+  development_length: 2048
+  max_local_profile_length: 4096

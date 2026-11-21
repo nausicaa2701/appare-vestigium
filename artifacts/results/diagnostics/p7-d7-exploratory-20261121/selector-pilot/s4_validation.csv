@@ -1,0 +1,2 @@
+sample_id,label,p_full,p_sampled,p_deterministic,kl_sampled,kl_deterministic,tokens_sampled,tokens_deterministic,selected_jaccard,sampled_sha256,deterministic_sha256
+jsvul:metarhia/metacalc::2dd5efe8476115a76848857a40e0f2017d9cebc6::lib/sheet.js::5::17,1,0.60067,0.65204,0.60067,0.005697,0.0,96,303,0.2857,b288ddb788ee4152129fd1d1721c5cc9f65f659a5e9ab6ab17ebff1c2b3dc72c,b5246c765b8c52c1f065b843aa064e1bab2b9f60d882822d33e14dd5af9deb39

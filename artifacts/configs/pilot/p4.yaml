@@ -1,0 +1,42 @@
+
+extends: p3.yaml
+name: raven-pilot-p4
+
+p4:
+
+  secbench_reproduction_cap: 20
+  base_image: node:16-bullseye
+  build_timeout_s: 1800
+
+
+  fixed_release_tag_first: true
+
+
+
+
+  oracle_adjudication: artifacts/data/oracle_adjudication.csv
+
+  redos:
+    threshold_ms: 1000
+    near_threshold_ms: 1500
+    min_ratio: 100
+
+  min_internal_free_gib: 20
+
+  isolation:
+    user: node
+    cpus: 2
+    memory: 2g
+    pids_limit: 128
+    tmpfs_mib: 256
+    timeout_s: 120
+    force_exit: true
+
+  alignment:
+    shingle_k: 3
+    near_jaccard: 0.8
+    margin: 0.1
+    review: 12
+    review_strata: 10
+
+  php_image: php@sha256:8854cc5e636820f38267855e97d0825659bc6acaf0891aa9701ec7e5c9ecc165

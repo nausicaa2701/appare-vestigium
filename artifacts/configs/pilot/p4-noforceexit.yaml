@@ -1,0 +1,6 @@
+
+extends: p4.yaml
+name: raven-pilot-p4-noforceexit
+p4:
+  isolation:
+    force_exit: false

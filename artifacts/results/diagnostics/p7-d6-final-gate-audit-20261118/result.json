@@ -1,0 +1,127 @@
+{
+  "cells": [
+    {
+      "fold": "0",
+      "output_digests_verified": true,
+      "run": "20261117T045430Z-raven-pilot-p7-evidence-detector-detector-train-b64099ee",
+      "source_sha256": "94f6930b54f34b5f5406d0b3e54a745ea9980ec972be90f51a26552a665fe0d0",
+      "steps": 126,
+      "variant": "no_dropout"
+    },
+    {
+      "fold": "0",
+      "output_digests_verified": true,
+      "run": "20261117T135955Z-raven-pilot-p7-evidence-detector-detector-train-b64099ee",
+      "source_sha256": "94f6930b54f34b5f5406d0b3e54a745ea9980ec972be90f51a26552a665fe0d0",
+      "steps": 126,
+      "variant": "context_dropout"
+    },
+    {
+      "fold": "1",
+      "output_digests_verified": true,
+      "run": "20261118T045218Z-raven-pilot-p7-evidence-detector-detector-train-b64099ee",
+      "source_sha256": "94f6930b54f34b5f5406d0b3e54a745ea9980ec972be90f51a26552a665fe0d0",
+      "steps": 123,
+      "variant": "no_dropout"
+    },
+    {
+      "fold": "1",
+      "output_digests_verified": true,
+      "run": "20261118T053458Z-raven-pilot-p7-evidence-detector-detector-train-b64099ee",
+      "source_sha256": "94f6930b54f34b5f5406d0b3e54a745ea9980ec972be90f51a26552a665fe0d0",
+      "steps": 123,
+      "variant": "context_dropout"
+    },
+    {
+      "fold": "2",
+      "output_digests_verified": true,
+      "run": "20261118T063452Z-raven-pilot-p7-evidence-detector-detector-train-b64099ee",
+      "source_sha256": "94f6930b54f34b5f5406d0b3e54a745ea9980ec972be90f51a26552a665fe0d0",
+      "steps": 138,
+      "variant": "no_dropout"
+    },
+    {
+      "fold": "2",
+      "output_digests_verified": true,
+      "run": "20261118T074818Z-raven-pilot-p7-evidence-detector-detector-train-b64099ee",
+      "source_sha256": "94f6930b54f34b5f5406d0b3e54a745ea9980ec972be90f51a26552a665fe0d0",
+      "steps": 138,
+      "variant": "context_dropout"
+    }
+  ],
+  "comparison_limit": "No paired detector-minus-BoW or variant contrast CI/TOST computed; overlapping marginal CIs do not establish equivalence.",
+  "d7_authorized": false,
+  "gate": "artifacts/results/pilot/P7/evidence-first-runs/20261118T090815Z-raven-pilot-p7-evidence-detector-detector-gate-b64099ee",
+  "gate_output_files_verified": 8,
+  "gate_output_inventory_sha256": "dbdd04d2ff8d0a35865fd0ac1c1fc9f6ac0939bb52a044fdbaafbc03d1fee114",
+  "primary_decision": "restrict",
+  "replayed_points": [
+    {
+      "confusion_tp_fp_tn_fn": [
+        48,
+        88,
+        66,
+        30
+      ],
+      "key": "no_dropout/detector/reference",
+      "mcc_replayed": 0.042161998654894284,
+      "records": 232
+    },
+    {
+      "confusion_tp_fp_tn_fn": [
+        57,
+        106,
+        48,
+        21
+      ],
+      "key": "no_dropout/detector/target_only",
+      "mcc_replayed": 0.043877731552146526,
+      "records": 232
+    },
+    {
+      "confusion_tp_fp_tn_fn": [
+        30,
+        51,
+        103,
+        48
+      ],
+      "key": "no_dropout/bow/reference",
+      "mcc_replayed": 0.05296590329020337,
+      "records": 232
+    },
+    {
+      "confusion_tp_fp_tn_fn": [
+        25,
+        41,
+        113,
+        53
+      ],
+      "key": "context_dropout/detector/reference",
+      "mcc_replayed": 0.05683474583598407,
+      "records": 232
+    },
+    {
+      "confusion_tp_fp_tn_fn": [
+        32,
+        64,
+        90,
+        46
+      ],
+      "key": "context_dropout/detector/target_only",
+      "mcc_replayed": -0.005110545291502337,
+      "records": 232
+    },
+    {
+      "confusion_tp_fp_tn_fn": [
+        30,
+        51,
+        103,
+        48
+      ],
+      "key": "context_dropout/bow/reference",
+      "mcc_replayed": 0.05296590329020337,
+      "records": 232
+    }
+  ],
+  "workflow": "artifacts/results/pilot/P7/evidence-first-runs/20261118T045217Z-raven-pilot-p7-evidence-detector-evidence-crossfit-resume2-workflow-b64099ee"
+}

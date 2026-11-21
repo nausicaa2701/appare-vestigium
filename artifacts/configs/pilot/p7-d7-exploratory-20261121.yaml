@@ -1,0 +1,4 @@
+
+extends: p7-evidence-detector.yaml
+name: raven-p7-d7-exploratory
+output_dir: artifacts/results/diagnostics/p7-d7-exploratory-20261121/runs

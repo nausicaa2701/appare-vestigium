@@ -1,0 +1,55 @@
+{
+  "arms": {
+    "exact_fit": {
+      "assessment": {
+        "auroc": 0.5026455026455026,
+        "bootstrap": 10000,
+        "ci_high": 0.1509463816279883,
+        "ci_low": 0.0,
+        "collapsed": false,
+        "confusion": [
+          12,
+          7,
+          119,
+          114
+        ],
+        "families": 126,
+        "mcc": 0.07514762220528472,
+        "positives": 126,
+        "predicted_positive": 19,
+        "records": 252
+      },
+      "predictions_sha256": "643d288ebed9474bc582987649375c331d6a0d1b080b80f3ef6469f0d6446abb",
+      "threshold": 0.5038912892341614
+    },
+    "llm_expanded_fit": {
+      "assessment": {
+        "auroc": 0.4891660367850844,
+        "bootstrap": 10000,
+        "ci_high": 0.1052066710873986,
+        "ci_low": -0.04307304922539481,
+        "collapsed": false,
+        "confusion": [
+          10,
+          8,
+          118,
+          116
+        ],
+        "families": 126,
+        "mcc": 0.030816677568068284,
+        "positives": 126,
+        "predicted_positive": 18,
+        "records": 252
+      },
+      "predictions_sha256": "1c3c56ddde95ddfd7080656f3239b5f2c6b7f10fab299b66099d467fecc6de67",
+      "threshold": 0.4958699941635132
+    }
+  },
+  "paired_mcc_difference": {
+    "ci_high": 0.04928178563618772,
+    "ci_low": -0.13977359490477723,
+    "draws": 10000,
+    "estimate": -0.04433094463721643
+  },
+  "scope": "exploratory; no change to historical D6 gate"
+}

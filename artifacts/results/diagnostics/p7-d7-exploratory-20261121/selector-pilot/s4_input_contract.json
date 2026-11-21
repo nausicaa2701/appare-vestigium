@@ -1,0 +1,16 @@
+{
+  "bundle": {
+    "path": "artifacts/results/pilot/P7/evidence-first-runs/20261116T175820Z-raven-pilot-p7-evidence-first-evidence-first-inputs-b74968ee",
+    "sha256": "5fe5ef54ea4e1965550309981d622200d40e7940568ef4ca6b75f6ca5b08f926"
+  },
+  "calibration_ids": [
+    "jsvul:metarhia/metacalc::2dd5efe8476115a76848857a40e0f2017d9cebc6::lib/sheet.js::5::17"
+  ],
+  "packer": "density-v2",
+  "serializer": "raven-target-v2",
+  "teacher": {
+    "jsvul:metarhia/metacalc::2dd5efe8476115a76848857a40e0f2017d9cebc6::lib/sheet.js::5::17": "b5246c765b8c52c1f065b843aa064e1bab2b9f60d882822d33e14dd5af9deb39",
+    "jsvul:sqlpad/sqlpad::2e15670ca148569e1e29aff5058cd9cb1ca90cb6::server/lib/render-connection.js::12::0": "1a72dc099666532cab7206d1e1370c67cefe51f0b6c8a1b2ec65f5171ec98706",
+    "jsvul:sqlpad/sqlpad::3f92be386c6cd3e5eba75d85f0700d3ef54daf73::server/lib/render-connection.js::17::0": "aad21d35aebe981125899df4fec4d43c804af1aa4fcf00a27e923d8c439803db"
+  }
+}

@@ -1,0 +1,7 @@
+key,mcc,ci_low,ci_high,families,records,positives,predicted_positive,collapsed
+context_dropout/bow/reference,0.053,-0.0138,0.1132,69,232,78,81,False
+context_dropout/detector/reference,0.0568,-0.0079,0.1144,69,232,78,66,False
+context_dropout/detector/target_only,-0.0051,-0.0673,0.0567,69,232,78,96,False
+no_dropout/bow/reference,0.053,-0.0138,0.1132,69,232,78,81,False
+no_dropout/detector/reference,0.0422,-0.0323,0.116,69,232,78,136,False
+no_dropout/detector/target_only,0.0439,-0.0413,0.1296,69,232,78,163,False

@@ -1,0 +1,67 @@
+name: raven-pilot-human-llm-v1
+scope: pilot_dev_only
+human_reviewers: 1
+judge:
+  provider: openai
+  model: gpt-4.1-2025-04-14
+  role: auxiliary_annotator
+  temperature: 0
+  max_input_tokens: 100000
+  max_output_tokens: 2000
+  tools_enabled: false
+  snapshot_context_window: 1047576
+rubric: docs/annotation-rubric.md
+rubric_version: pilot-human-llm-v1
+prompt: artifacts/configs/pilot/judge-prompt.md
+
+
+
+prompt_version: v2
+prompt_history:
+  v1: 423f37bed5a3ddc9c8969ad782624f01b07ca6e02d8dfe877e39d06adfe938aa
+output_schema: artifacts/configs/pilot/judge-output.schema.json
+sampling:
+  seed: 42
+  unit_jsvul: target
+  unit_php: minimal_pair_with_separate_twin_records
+  calibration:
+    jsvul: 10
+    php_pairs: 10
+  validation:
+    jsvul: 10
+    php_pairs: 10
+  split_by_family: true
+  insufficient_eligible_cases: report_shortfall
+blindness:
+  hide_selector_outputs: true
+  hide_detector_outputs: true
+  hide_human_annotation_from_judge: true
+  hide_judge_annotation_from_initial_human_review: true
+  hide_labels_fix_metadata_and_header_hints: true
+validation:
+  check_source_hashes_lines_quotes: true
+  max_schema_span_repairs: 1
+  preserve_original_outputs: true
+  uncertain_is_allowed: true
+  agreement_type: human_llm
+  confirmatory_context_necessity_gate: restrict
+
+
+
+
+
+billing:
+
+
+  credit_confirmed: true
+  max_spend_usd: 6
+  execution_enabled: true
+  ledger: artifacts/results/pilot/P5/judge_ledger.csv
+
+  standard_input_usd_per_million: 2.0
+  standard_output_usd_per_million: 8.0
+status: enabled
+protocol_hashes:
+  rubric: 9be4fd0de0c2626d6446f94492926b259aec2b02674bc2d22793b217f4f48912
+  prompt: 12d59dc6d21a4883b522c28463ea4e7fd716dacf63bf97a5416031cae2e46ede
+  output_schema: 2d80855fb77ccdff691fe13ba1227d950c54ce50df2b50ffcd32e368efabaa42

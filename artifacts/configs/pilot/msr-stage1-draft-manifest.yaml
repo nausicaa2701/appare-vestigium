@@ -1,0 +1,184 @@
+schema: msr-stage1-contract-v2
+status: amended-draft-before-main-assessment-qualification-and-resources-open
+date: '2026-11-19'
+study: exploratory
+core_rqs:
+- RQ1
+- RQ2
+- RQ3
+pr_extension: future_work
+submission:
+  abstract_registered: true
+  source: researcher-confirmed-2026-11-17
+  initial_report_deadline_vietnam: '2026-11-21T18:59:59+07:00'
+primary_detection:
+  comparator: gated_mmr
+  population: qualified-complete-SecBench-pairs-after-family-purge
+  weight: pooled-target-confusion-counts
+  statistic: equal-budget-mean-of-paired-seed-mean-MCC-differences
+  seed_aggregation: metrics-not-probability-ensemble
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  threshold: max-MCC-on-reference-calibration-shared-across-views
+  threshold_ties:
+  - lower_fpr
+  - closer_to_0.5
+  - larger
+  undefined_mcc: zero-with-degenerate-count-and-sensitivity-report
+  inference: estimation-primary
+  interval: paired-family-percentile-bootstrap
+  bootstrap_draws: 10000
+  bootstrap_seed: 42
+  quantile_indices:
+  - 250
+  - 9750
+  family_draw_shared_across:
+  - policies
+  - twins
+  - budgets
+  - seeds
+  datasets_pooled: false
+  teacher_correct_filter: false
+budgets:
+  candidates:
+  - 512
+  - 1024
+  - 2048
+  - 4096
+  - 8192
+  rule: retain-points-with-successful-profile-and-qualification-coverage-before-assessment
+  minimum_frontier_points: 3
+  insufficient_points: narrow-budget-claim-before-main-assessment
+  cohort: intersection-of-pair-feasibility-across-frozen-budgets-for-primary
+  separate_long_input_stratum: true
+mechanism:
+  fixed_score_defaults: {sigma: 1.0, gamma: 2.0, beta: 1.0, neighborhood_size: 8, subtraction_eta: 1.0, support_alpha: 0.5, mmr_lambda: 0.5, tuning_trials_per_policy: 0}
+  supplemental_comparators:
+    candidates: [sink_centered_truncation, dpp, structural_slice, longcodezip]
+    admission: pin-development-fixture-implementation-eligibility-and-profile-before-main-freeze-or-record-omission
+  policies:
+  - appare
+  - gated_mmr
+  - gated_subtraction
+  - dn_ungated
+  - relevance
+  - dependency_expansion
+  - dependency_mean
+  - dn_support
+  relevance: shared-frozen-drives-with-source-lineage-and-alternate-relevance-sensitivity
+  selection_opportunity: annotated-optional-evidence-in-pool-and-witnessed-joint-feasibility-and-pool-over-budget
+  report_all_coverage_denominators: true
+  annotations_enter_scorer: false
+  secondary_contrasts: exploratory-estimates-no-unregistered-significance-claims
+  broader_base_references:
+  - random
+  - truncation_head
+  - truncation_tail
+  - mmr
+precision:
+  objective: uncertainty-characterization-not-guaranteed-power
+  desired_primary_interval_full_width: 0.2
+  insufficient_precision: report-inconclusive-with-observed-width-no-extra-outcome-selected-sampling
+  scenario_analysis: artifacts/scripts/p7/precision_plan.py
+  main_family_count: pending-outcome-blind-qualification
+annotation:
+  confirmed_available_person_hours: 5
+  interpretation: conservative-pooled-budget-not-assumed-per-reviewer
+  independent_experts: 2
+  reviewer_identities_and_independent_availability: author-confirmed-independent-calibration; Stage-2-availability-pending
+  fixed_adjudication_reserve_minutes: 60
+  calibration: first-three-development-pairs-reviewed-independently-and-timed
+  paired_sample_rule: floor-remaining-minutes-divided-by-four-times-conservative-minutes-per-target
+  conservative_minutes_per_target: maximum-timed-calibration-review-duration
+  ordering: prediction-blind-family-stratified-hash-order
+  target_count: workload-rule-not-100-to-200-promise
+  failure_analysis: exploratory-only-within-the-same-total-time-cap-no-unfunded-extra-sample
+  insufficient_reviewers_or_sample: descriptive-evidence-case-study-limit-no-population-semantic-validity-claim
+  ethics: actual-institutional-determination-pending
+  scope: descriptive-independently-reviewed-case-study
+  population_semantic_validity_claim: false
+  comparative_faithfulness_claim: false
+  agreement_reporting: case-level-independent-judgments-and-disagreement-counts-not-precise-population-agreement
+  total_budget_minutes: 300
+  budget_includes:
+  - calibration
+  - new-fit-review
+  - main-blind-review
+  - failure-review
+  - adjudication
+  calibration_status: two-independent-sheets-returned; full-effort-per-target-and-material-adjudication-pending
+  reported_review_minutes: 52
+  slowest_reported_target_minutes: 8
+  estimated_full_effort_minutes_per_reviewer: [30, 50]
+  full_effort_estimate_source: author-estimate-without-per-target-breakdown
+  reviewer_background: full-stack software engineers with 4-6 years each; Angular, React, Java and Laravel across the two
+  feedback_use: material-to-evidence-annotation-sufficiency-or-interpretation
+  main_pair_allocation: pending
+  behavioral_interventions:
+    requires_permitting_detector: true
+    views_per_eligible_target_policy_budget: [sufficiency, removal, sufficiency_optional_code_control, removal_optional_code_control]
+    controls: same-closure-and-direction; whole-optional-units; report-serialized-token-mismatch-and-missing-controls
+    reuse: identical-serialized-input-per-checkpoint-only
+resources:
+  pilot_cap_cumulative_m4_hours: 216
+  main_envelope: H100-40GB-planned-for-Stage2; expected-7-to-30-days-or-longer; booked-hours-start-and-profiles-pending
+  reductions_before_core_controls:
+  - pr-extension
+  - wrapper-training
+  - extra-models
+  - secondary-seed-budget-expansions
+  model_gate_failure: stop-dependent-quality-workflow-retain-evidence-only-analysis
+  author_confirmed_phase_plan:
+    confirmed_date: '2026-11-19'
+    source: researcher-current-conversation
+    current_hardware: Apple M4 Pro
+    stage2_hardware: H100 after entry into Stage 2
+    h100_vram: 40 GB
+    h100_gpu_hours: pending-confirmed-reservation
+    booking_or_access_window: 7-to-30-days-possibly-longer; start-and-exclusivity-pending
+    hardware_profiles: required-before-fixing-main-budgets-and-launching-main
+    meaning: planned capacity only; does not change detector restrict or authorize
+      D7
+amendments:
+  record_before_outcomes: true
+  no_seed_or_family_search_for_passing_gate: true
+  already_observed_development_outcomes: disclosed-and-family-quarantined
+  current_amendment_date: '2026-11-18'
+  timing: after-pilot-D6-outcomes-before-main-outcomes
+  scope_basis: RQ3-five-hour-case-study-and-encoder-cap-strata-were-already-written-in-17-Nov-manuscript;
+    this encodes them and records observed-D6-restrict, not a newly-chosen-successful-treatment
+representation:
+  encoder: Salesforce/codet5-small
+  revision: b1ee9570c289f21b5922b9c768a1ce12957bf968
+  window_tokens: 256
+  includes_special_tokens: true
+  truncation: prefix-per-target-or-candidate-text
+  detector_source_units: complete-not-encoder-truncated
+  primary_eligibility_changes: false
+  pair_clip_stratum: clipped-if-either-target-clipped-otherwise-both-unclipped
+  candidate_clip_reporting: per-pool-fraction-and-full-encoder-token-lengths
+  stratum_inference: secondary-descriptive-no-new-interaction-or-primary-test
+  wider_window:
+    candidate: 512
+    status: not-run-optional-secondary-profile-and-resource-gated
+    contract: same-cases-graph-pools-closure-budgets-parameters-and-shared-embedding-treatment;
+      explicit-new-cache-and-lineage
+conditioning:
+  primary: raven-target-v2-source-boundary-markers
+  wrapper: not-run-deferred-diagnostic
+  marker_superiority_hypothesis: false
+detector_qualification:
+  pilot_primary_machine_key: context_dropout
+  pilot_primary_display_name: reviewed-fit-reference-fallback-augmentation-v1
+  augmentation_version: reviewed-fit-reference-fallback-v1
+  gate_run: artifacts/results/pilot/P7/evidence-first-runs/20261118T090815Z-raven-pilot-p7-evidence-detector-detector-gate-b64099ee
+  decision: restrict
+  dependent_quality_teacher_selector_authorized: false
+  secondary_variant_substitution_authorized: false
+  additional_detector_revision_authorized_by_this_amendment: false
+  failure_branch: report-inconclusive-detector-feasibility-and-qualified-detector-free-evidence-audits
+  future_main_detection_execution: requires-permitting-qualification-and-prospectively-bounded-development-resource-protocol-before-main-outcomes
